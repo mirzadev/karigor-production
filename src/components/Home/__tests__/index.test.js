@@ -12,4 +12,8 @@ describe("Home component", () => {
     render(<Home />);
   });
   // Second Test
+  it("matches snapshot DOM node structure", () => {
+    const { asFragment } = render(<Home />);
+    expect(asFragment()).toMatchSnapshot();
+  });
 });
