@@ -5,6 +5,10 @@ import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 
 class Navbar extends Component {
+  state = { clicked: false };
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
   render() {
     return (
       <nav className="NavbarItems">
@@ -15,7 +19,7 @@ class Navbar extends Component {
                 id="karigor-logo"
                 src={karigorLogo}
                 alt=""
-                height="70"
+                height="73"
                 width="110"
               ></img>
             </span>
@@ -24,7 +28,14 @@ class Navbar extends Component {
         <a class="header-link" href="/">
           <span id="app-title">KARIGOR PRODUCTION</span>
         </a>
-        <ul className="nav-menu">
+
+        <div className="menu-icons" onClick={this.handleClick}>
+          <i
+            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+          ></i>
+        </div>
+
+        <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
