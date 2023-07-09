@@ -1,5 +1,5 @@
 import { Component } from "react";
-import karigorLogo from "./Assets/karigor-logo.PNG";
+import karigorLogo from "./assets/karigor-logo.PNG";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
@@ -39,10 +39,10 @@ class Navbar extends Component {
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.CName} href="/">
+                <Link className={item.CName} to={item.url}>
                   <i className={item.icon}></i>
                   {item.title}
-                </a>
+                </Link>
               </li>
             );
           })}
