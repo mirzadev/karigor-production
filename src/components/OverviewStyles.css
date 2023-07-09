@@ -1,0 +1,149 @@
+.overview {
+  margin: 4rem 4rem;
+  color: rgb(6, 6, 146);
+}
+
+.overview h1 {
+  font-size: 4rem;
+}
+.overview p {
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.overview-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.mission-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.objective-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6.5rem;
+}
+.mission-text {
+  width: 60%;
+  text-align: start;
+  font-size: 1.1rem;
+  padding-left: 4rem;
+}
+
+.overview-text,
+.objective-text {
+  width: 60%;
+  text-align: start;
+  font-size: 1.1rem;
+  padding-right: 4rem;
+}
+.overview-text h2,
+.mission-text h2,
+.objective-text h2 {
+  padding-bottom: 1rem;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+.overview-text p,
+.mission-text p,
+.objective-text p {
+  text-align: justify;
+  font-size: 1.8rem;
+}
+
+.home-image {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.mission-image {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+.objective-image {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+.home-image img {
+  width: 49%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.mission-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+.objective-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.home-image img:nth-child(2) {
+  position: absolute;
+  top: -20%;
+  right: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .overview {
+    margin: 4rem 2rem;
+  }
+  .overview p {
+    padding-bottom: 1rem;
+  }
+  .overview-des,
+  .objective-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
+  .mission-des {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+  }
+
+  .home-image,
+  .mission-image,
+  .objective-image {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .overview-text,
+  .mission-text,
+  .objective-text {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .overview-text h2 {
+    justify-content: space-evenly;
+  }
+}
