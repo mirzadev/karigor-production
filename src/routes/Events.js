@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer/Footer";
 import eventCoverPic from "../components/assets/eventCoverPic.jpg";
 function Events() {
   return (
@@ -11,6 +12,7 @@ function Events() {
         titleOther="Karigor Events"
         btnClass="hide"
       />
+      <Footer />
     </>
   );
 }

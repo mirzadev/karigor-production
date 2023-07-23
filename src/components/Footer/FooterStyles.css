@@ -1,0 +1,127 @@
+.footer {
+  padding: 4rem 6rem;
+  background: rgb(91, 91, 250);
+  color: whitesmoke;
+}
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  flex-wrap: wrap;
+}
+#footer-header {
+  text-align: start;
+  justify-content: space-around;
+}
+.footer-link {
+  text-decoration: none;
+}
+#footer-app-title {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.footer-title {
+  display: flex;
+  align-items: center;
+}
+
+.bottom {
+  padding-top: 2rem;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer h4 {
+  font-size: 1.7rem;
+  padding: 1rem 0 0.8rem 0;
+}
+
+.twiter {
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media a:hover {
+  transform: scale(1.2);
+}
+
+.useful-links {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.useful-links a:hover {
+  color: greenyellow;
+}
+
+.location-address {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -0.5rem;
+}
+.footer-contact-us a img:hover {
+  transform: scale(1.2);
+}
+.telephone,
+.email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 1.1rem;
+  padding-bottom: 0.5rem;
+}
+
+.footer-contact-us a:hover {
+  color: greenyellow;
+}
+
+.copyright-note {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.copyright-note a {
+  text-decoration: none;
+  color: #fafafa;
+  margin-left: 1rem;
+}
+
+.copyright-note a:hover {
+  color: greenyellow;
+}
+
+.footer a {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 4rem 1rem;
+  }
+
+  .footer h4 {
+    font-size: 1.5rem;
+  }
+
+  .footer a {
+    font-size: 1rem;
+  }
+
+  .copyright-note {
+    font-size: 1rem;
+  }
+}
