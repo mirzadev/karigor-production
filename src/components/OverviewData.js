@@ -1,7 +1,5 @@
 import { Component } from "react";
 import "./OverviewStyles.css";
-import homeOverview_1 from "./assets/Karigor-1.jpg";
-import homeOverview_2 from "./assets/Karigor-2.jpg";
 
 class OverviewData extends Component {
   render() {

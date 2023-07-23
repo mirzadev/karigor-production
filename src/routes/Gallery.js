@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
-import galleryCoverPic from "../components/assets/galleryCoverPic.jpg";
+import galleryCoverPic from "../components/Assets/galleryCoverPic.jpg";
 function Gallery() {
   return (
     <>

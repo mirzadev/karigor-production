@@ -1,17 +1,12 @@
 import "./HomeEventStyle.css";
 import HomeEventData from "./HomeEventData";
-import HomeEvent1 from "../assets/homeEventImage/Karigor-5.jpg";
-import HomeEvent2 from "../assets/homeEventImage/Karigor-6.jpg";
-import HomeEvent3 from "../assets/homeEventImage/Karigor-7.jpg";
-import HomeEvent4 from "../assets/homeEventImage/ekCupCha1.jpg";
-import HomeEvent5 from "../assets/homeEventImage/ekCupCha2.jpg";
-import HomeEvent6 from "../assets/homeEventImage/ekCupCha3.jpg";
-import HomeEvent7 from "../assets/homeEventImage/kpCultural1.jpg";
-import HomeEvent8 from "../assets/homeEventImage/kpCultural2.jpg";
-import HomeEvent9 from "../assets/homeEventImage/kpCultural3.jpg";
-import HomeEvent10 from "../assets/homeEventImage/kpNews1.jpg";
-import HomeEvent11 from "../assets/homeEventImage/kpNews2.jpg";
-import HomeEvent12 from "../assets/homeEventImage/kpNews3.jpg";
+import HomeEvent1 from "../Assets/homeEventImage/Karigor-5.jpg";
+
+import HomeEvent4 from "../Assets/homeEventImage/ekCupCha1.jpg";
+
+import HomeEvent7 from "../Assets/homeEventImage/Karigor-7.jpg";
+
+import HomeEvent10 from "../Assets/homeEventImage/kpNews1.jpg";
 
 function HomeEvent() {
   return (

@@ -1,11 +1,11 @@
 import "./FooterStyles.css";
-import karigorLogo from "../assets/karigor-logo.PNG";
-import FaceBook from "../assets/footerItem/Facebook.png";
-import Twiter from "../assets/footerItem/Twiter.png";
-import YouTube from "../assets/footerItem/YouTube.png";
-import Location from "../assets/footerItem/Location_Symbol.png";
-import Telephone from "../assets/footerItem/Telephone_Logo.png";
-import Email from "../assets/footerItem/Email_Logo.png";
+import karigorLogo from "../Assets/karigor-logo.PNG";
+import FaceBook from "../Assets/footerItem/Facebook.png";
+import Twiter from "../Assets/footerItem/Twiter.png";
+import YouTube from "../Assets/footerItem/YouTube.png";
+import Location from "../Assets/footerItem/Location_Symbol.png";
+import Telephone from "../Assets/footerItem/Telephone_Logo.png";
+import Email from "../Assets/footerItem/Email_Logo.png";
 
 const Footer = () => {
   return (
