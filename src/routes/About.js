@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer/Footer";
 import aboutCoverPic from "../components/assets/aboutCoverPic.jpg";
 function About() {
   return (
@@ -11,6 +12,7 @@ function About() {
         titleOther="About Karigor"
         btnClass="hide"
       />
+      <Footer />
     </>
   );
 }
