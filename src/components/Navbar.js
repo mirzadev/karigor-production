@@ -1,5 +1,5 @@
 import { Component } from "react";
-import karigorLogo from "./assets/karigor-logo.PNG";
+import karigorLogo from "./Assets/karigor-logo.PNG";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";

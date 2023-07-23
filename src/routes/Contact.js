@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
-import contactCoverPic from "../components/assets/contactCoverPic.jpg";
+import contactCoverPic from "../components/Assets/contactCoverPic.jpg";
 function Contact() {
   return (
     <>
