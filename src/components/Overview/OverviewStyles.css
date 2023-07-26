@@ -18,20 +18,21 @@
   margin-top: 2.5rem;
 }
 
-.mission-des {
+.history-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 4.5rem;
 }
 
-.objective-des {
+.mission-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 6.5rem;
 }
-.mission-text {
+
+.history-text {
   width: 60%;
   text-align: start;
   font-size: 1.1rem;
@@ -39,7 +40,7 @@
 }
 
 .overview-text,
-.objective-text {
+.mission-text {
   width: 60%;
   text-align: start;
   font-size: 1.1rem;
@@ -47,14 +48,14 @@
 }
 .overview-text h2,
 .mission-text h2,
-.objective-text h2 {
+.history-text h2 {
   padding-bottom: 1rem;
   justify-content: center;
   font-size: 2rem;
 }
 .overview-text p,
 .mission-text p,
-.objective-text p {
+.history-text p {
   text-align: justify;
   font-size: 1.4rem;
 }
@@ -67,20 +68,15 @@
   z-index: -99;
 }
 
-.mission-image {
+.mission-image,
+.history-image {
   position: relative;
   width: 60%;
   display: flex;
   justify-content: space-between;
   z-index: -99;
 }
-.objective-image {
-  position: relative;
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  z-index: -99;
-}
+
 .home-image img {
   width: 49%;
   height: auto;
@@ -96,7 +92,8 @@
   border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
-.objective-image img {
+
+.history-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
