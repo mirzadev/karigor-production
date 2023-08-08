@@ -53,10 +53,10 @@ const Footer = () => {
         </div>
         <div className="useful-links">
           <h4>Useful Links</h4>
-          <a href="/">About Us</a>
-          <a href="/">Contact Us</a>
-          <a href="/">Events</a>
-          <a href="/">Gallery</a>
+          <a href="/about">About Us</a>
+          <a href="/contact">Contact Us</a>
+          <a href="/events">Events</a>
+          <a href="/gallery">Gallery</a>
         </div>
         <div className="footer-contact-us">
           <h4>Contact Us</h4>

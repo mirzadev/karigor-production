@@ -1,0 +1,376 @@
+.boishakh-history-container {
+  margin: 4rem 4rem;
+  color: rgb(6, 6, 146);
+}
+
+.boishakh-main-heading {
+  font-size: 3rem;
+  color: rgb(6, 6, 146);
+}
+
+.boishakh-history-heading {
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.boishakh-history-container p {
+  font-size: 1.4rem;
+  padding-bottom: 3rem;
+}
+
+.boishakh-history-des-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+}
+
+.boishakh-history-text-1 {
+  width: 60%;
+  text-align: start;
+  font-size: 1.1rem;
+  padding-right: 4rem;
+}
+
+.boishakh-history-text-1 p {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+.boishakh-history-image-1 {
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+.boishakh-history-image-1 img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.boishakh-history-des-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.boishakh-history-text-2 {
+  width: 60%;
+  text-align: start;
+  font-size: 1.1rem;
+  padding-left: 4rem;
+}
+
+.boishakh-history-text-2 p {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+.boishakh-history-image-2 {
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+.boishakh-history-image-2 img {
+  width: 100%;
+  height: 27rem;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.boishakh-bryanPark-heading {
+  padding-top: 3.5rem;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.bryanPark-link,
+.american-germanClub-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.jatra-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.jatra-text {
+  width: 60%;
+  text-align: start;
+  font-size: 1.1rem;
+  padding-right: 4rem;
+}
+
+.jatra-text h2 {
+  padding-bottom: 1rem;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.jatra-text p {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+#jatra-image {
+  position: relative;
+  border-radius: 15px;
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+  cursor: pointer;
+}
+
+#jatra-image img {
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.cultural-event-children,
+.cultural-event-adult,
+.cultural-event-audience {
+  position: relative;
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.cultural-event-children img,
+.cultural-event-adult img,
+.cultural-event-audience img {
+  position: relative;
+
+  width: 100%;
+  height: auto;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+  cursor: pointer;
+}
+
+.cultural-event-heading {
+  width: 60%;
+  text-align: start;
+  font-size: 1.1rem;
+  padding-right: 4rem;
+}
+.cultural-event-description {
+  width: 100%;
+  text-align: justify;
+}
+
+.cultural-event-heading h2 {
+  padding-bottom: 1rem;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.rotnogorbha-heading {
+  width: 60%;
+  text-align: start;
+  font-size: 1.1rem;
+  padding-right: 4rem;
+}
+.rotnogorbha-description {
+  width: 100%;
+  text-align: justify;
+}
+
+.rotnogorbha-heading h2 {
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.rotnogorbha-cart {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.rotnogorbha-des {
+  width: 30%;
+  text-align: start;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.rotnogotbha-image {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.rotnogotbha-image img {
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+  border-radius: 7px;
+}
+
+.rotnogotbha-image:hover img {
+  transform: scale(1.3);
+}
+
+.rotnogorbha-des h2 {
+  justify-content: center;
+}
+
+.gombhira-heading {
+  width: 60%;
+  margin-top: 5rem;
+  text-align: start;
+  font-size: 1.5rem;
+  padding-right: 4rem;
+}
+
+.gombhira-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.gombhira-text {
+  width: 60%;
+  text-align: start;
+  font-size: 1.1rem;
+  padding-right: 4rem;
+}
+
+.gombhira-text p {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+#gombhira-image {
+  position: relative;
+  border-radius: 15px;
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+  cursor: pointer;
+}
+
+#gombhira-image img {
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 850px) {
+  .boishakh-history-container {
+    margin: 4rem 2rem;
+  }
+  .boishakh-history-container p {
+    padding-bottom: 1rem;
+  }
+  .boishakh-history-des-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+  }
+
+  .boishakh-history-des-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+  .boishakh-history-image-1,
+  .boishakh-history-image-2 {
+    width: 100%;
+    height: auto;
+    margin: 1.8rem 0;
+  }
+  .boishakh-history-text-1,
+  .boishakh-history-text-2 {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .boishakh-history-text-2 h2 {
+    justify-content: space-evenly;
+  }
+
+  .jatra-des {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+  }
+
+  #jatra-image {
+    height: auto;
+    margin: 1.8rem 0;
+  }
+
+  .jatra-text {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .boishakh-main-heading {
+    font-size: 2.1rem;
+  }
+
+  .boishakh-history-heading {
+    font-size: 2rem;
+  }
+
+  .boishakh-bryanPark-heading {
+    padding-top: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .jatra-text h2 {
+    padding-bottom: 0.7rem;
+    justify-content: center;
+    font-size: 1.7rem;
+  }
+
+  .cultural-event-children,
+  .cultural-event-adult,
+  .cultural-event-audience {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .rotnogorbha-heading {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .rotnogorbha-cart {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .rotnogorbha-des {
+    width: 100%;
+  }
+}

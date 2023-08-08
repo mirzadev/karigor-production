@@ -13,7 +13,7 @@ function Home() {
         text="Small Bangladesh in Florida - USA"
         title="KARIGOR PRODUCTION AND CULTURAL SOCIETY"
         buttonText="Explore Karigor"
-        url="/"
+        url="/about"
         btnClass="show"
       />
       <Overview />

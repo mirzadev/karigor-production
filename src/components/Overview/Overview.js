@@ -60,7 +60,7 @@ const Overview = () => {
             the same in next generation.
           </p>
         </div>
-        <div className="history-image">
+        <div className="mission-image">
           <img alt="img" src={karigorMission} />
         </div>
       </div>

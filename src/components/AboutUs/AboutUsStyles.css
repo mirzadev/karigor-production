@@ -73,3 +73,40 @@
   border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
+
+@media screen and (max-width: 850px) {
+  .overview {
+    margin: 4rem 2rem;
+  }
+  .overview p {
+    padding-bottom: 1rem;
+  }
+
+  .objective-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+  .vision-des {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+  }
+
+  .home-image,
+  .objective-image,
+  .vision-image {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .overview-text,
+  .vision-text,
+  .objective-text {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .overview-text h2 {
+    justify-content: space-evenly;
+  }
+}

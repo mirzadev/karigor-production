@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import eventCoverPic from "../components/Assets/eventCoverPic.jpg";
 import HomeEvent from "../components/HomeEvents/HomeEvent";
+import PohelaBoishakh from "../components/EventBoishakh/PohelaBoishakh";
 function Events() {
   return (
     <>
@@ -14,6 +15,7 @@ function Events() {
         btnClass="hide"
       />
       <HomeEvent />
+      <PohelaBoishakh />
       <Footer />
     </>
   );

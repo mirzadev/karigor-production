@@ -1,5 +1,5 @@
 body {
-  background: rgb(243, 230, 196);
+  background: rgba(243, 230, 196, 0.244);
 }
 .NavbarItems {
   display: flex;

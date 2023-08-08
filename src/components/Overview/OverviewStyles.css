@@ -114,28 +114,34 @@
   .overview p {
     padding-bottom: 1rem;
   }
-  .overview-des,
-  .objective-des {
+
+  .overview-des {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 2.5rem;
   }
 
-  .mission-des {
+  .history-des {
     display: flex;
     flex-direction: column;
     margin-top: 2.5rem;
   }
 
+  .mission-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
   .home-image,
   .mission-image,
-  .objective-image {
+  .history-image {
     width: 100%;
     margin: 1.8rem 0;
   }
   .overview-text,
   .mission-text,
-  .objective-text {
+  .history-text {
     width: 100%;
     padding-right: 0;
     padding-left: 0;

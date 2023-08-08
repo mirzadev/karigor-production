@@ -1,6 +1,9 @@
 import "./HomeEventStyle.css";
 
 function HomeEventData(props) {
+  const handleClick = () => {
+    console.log("hello World");
+  };
   return (
     <div className="homeEventDataCart">
       <div className="homeEventDataCart-image">
@@ -8,6 +11,11 @@ function HomeEventData(props) {
       </div>
       <h2>{props.heading}</h2>
       <p>{props.text}</p>
+      <a href={props.url}>
+        <button onClick={handleClick} className="event-button">
+          Event Details
+        </button>
+      </a>
     </div>
   );
 }

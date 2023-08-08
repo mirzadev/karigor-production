@@ -7,6 +7,7 @@ import HomeEvent4 from "../Assets/homeEventImage/ekCupCha1.jpg";
 import HomeEvent7 from "../Assets/homeEventImage/Karigor-7.jpg";
 
 import HomeEvent10 from "../Assets/homeEventImage/kpNews1.jpg";
+import PohelaBoishakh from "../EventBoishakh/PohelaBoishakh";
 
 function HomeEvent() {
   return (
@@ -18,6 +19,7 @@ function HomeEvent() {
           image={HomeEvent1}
           heading="Pohela Boishakh"
           text="Karigor celebrates Pohela Boishakh Every Year which is first day of Bengali New Year"
+          url="/boishakh"
         />
 
         <HomeEventData
