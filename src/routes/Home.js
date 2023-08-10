@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Overview from "../components/Overview/Overview";
 import HomeEvent from "../components/HomeEvents/HomeEvent";
 import Footer from "../components/Footer/Footer";
+
 function Home() {
   return (
     <>

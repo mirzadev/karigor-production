@@ -1,6 +1,11 @@
 body {
-  background: rgba(243, 230, 196, 0.244);
+  /* background-image: url("../components/Assets/karigor-background.JPG"); */
+  background: rgb(238, 238, 214);
+  /* background: rgb(200, 216, 240); */
+
+  /* background: url("../components/Assets/homeEventImage/home_background.mp4"); */
 }
+
 .NavbarItems {
   display: flex;
   justify-content: space-between;

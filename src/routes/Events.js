@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer";
 import eventCoverPic from "../components/Assets/eventCoverPic.jpg";
 import HomeEvent from "../components/HomeEvents/HomeEvent";
 import PohelaBoishakh from "../components/EventBoishakh/PohelaBoishakh";
+import EkCupCha from "../components/EventEkCupCha/EventEkCupCha";
 function Events() {
   return (
     <>
@@ -15,7 +16,7 @@ function Events() {
         btnClass="hide"
       />
       <HomeEvent />
-      <PohelaBoishakh />
+      <EkCupCha />
       <Footer />
     </>
   );
