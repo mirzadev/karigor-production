@@ -26,6 +26,7 @@ function HomeEvent() {
           image={HomeEvent4}
           heading="Ek Cup Cha"
           text="Karigor organizes reality talk show with the Bangladeshi professionals from different professions and focuses on their success story. Each of the show are very popular and has become as one of the most prestegious Bangladesh show in South Florida."
+          url="/ekCupCha"
         />
 
         <HomeEventData

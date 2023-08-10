@@ -6,6 +6,7 @@ import Contact from "./routes/Contact";
 import Events from "./routes/Events";
 import Gallery from "./routes/Gallery";
 import Boishakh from "./routes/Boishakh";
+import EkCupCha from "./routes/EkCupCha";
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/events" element={<Events />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/ekCupCha" element={<EkCupCha />} />
         <Route path="/boishakh" element={<Boishakh />} />
       </Routes>
     </div>
