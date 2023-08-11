@@ -24,10 +24,10 @@ export const MenuItems = [
     icon: "fa-solid fa-calendar-days",
   },
   {
-    title: "Gallery",
-    url: "/gallery",
+    title: "Children",
+    url: "/children",
     CName: "nav-links",
-    icon: "fa-sharp fa-solid fa-image",
+    icon: "fa-solid fa-children",
   },
 
   {
