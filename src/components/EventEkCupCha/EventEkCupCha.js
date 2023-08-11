@@ -472,7 +472,7 @@ function EventEkCupCha() {
           <div className="ekCupCha-episode">
             <a
               className="episode-link"
-              href="https://www.youtube.com/watch?v=2B3F0moME0g&t=261s"
+              href="https://www.youtube.com/watch?v=KlK0ZOkCa9c"
               target="_blank"
             >
               <div className="ekCupCha-episode-image">

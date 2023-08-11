@@ -7,7 +7,6 @@ import HomeEvent4 from "../Assets/homeEventImage/ekCupCha1.jpg";
 import HomeEvent7 from "../Assets/homeEventImage/Karigor-7.jpg";
 
 import HomeEvent10 from "../Assets/homeEventImage/kpNews1.jpg";
-import PohelaBoishakh from "../EventBoishakh/PohelaBoishakh";
 
 function HomeEvent() {
   return (
@@ -18,27 +17,29 @@ function HomeEvent() {
         <HomeEventData
           image={HomeEvent1}
           heading="Pohela Boishakh"
-          text="Karigor celebrates Pohela Boishakh Every Year which is first day of Bengali New Year"
+          text="Karigor celebrates Pohela Boishakh Every Year which is first day of Bengali New Year. The program is organized in a style that gives same flavour like Bangladesh."
           url="/boishakh"
         />
 
         <HomeEventData
           image={HomeEvent4}
           heading="Ek Cup Cha"
-          text="Karigor organizes reality talk show with the Bangladeshi professionals from different professions and focuses on their success story. Each of the show are very popular and has become as one of the most prestegious Bangladesh show in South Florida."
+          text="Karigor production organizes reality talk show with the Bangladeshi origin nationals from different professions and who are very successful in their own career."
           url="/ekCupCha"
         />
 
         <HomeEventData
           image={HomeEvent7}
-          heading="Cultural Shows"
-          text="Karigor organizes different cultural shows including Anando Mela, Drama, musical events or picnics. Each of these are very popular to the Bangladeshi community"
+          heading="Cultural Events"
+          text="Karigor organizes different cultural events including Anando Mela, Drama, musical events or picnics. Each of these are very popular to the Bangladeshi community."
+          url="/kpCulture"
         />
 
         <HomeEventData
           image={HomeEvent10}
           heading="KP News"
-          text="KP news always brings out the updated news for Bangladeshi that covers the local, national or international events related to Bangladeshi community."
+          text="Karigor telecasts news that always shows the updated information for Bangladeshi covering local, national or international events related to Bangladeshi community."
+          url="/kpNews"
         />
       </div>
     </div>

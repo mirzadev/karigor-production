@@ -5,6 +5,8 @@ import eventCoverPic from "../components/Assets/eventCoverPic.jpg";
 import HomeEvent from "../components/HomeEvents/HomeEvent";
 import PohelaBoishakh from "../components/EventBoishakh/PohelaBoishakh";
 import EkCupCha from "../components/EventEkCupCha/EventEkCupCha";
+import KarigorNews from "../components/EventKpNews/KarigorNews";
+import CulturalActivities from "../components/EventCulturalActivities/CulturalActivities";
 function Events() {
   return (
     <>
@@ -16,7 +18,8 @@ function Events() {
         btnClass="hide"
       />
       <HomeEvent />
-      <EkCupCha />
+      <CulturalActivities />
+      <KarigorNews />
       <Footer />
     </>
   );
