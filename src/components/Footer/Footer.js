@@ -34,10 +34,10 @@ const Footer = () => {
         <div>
           <h4>Social Media</h4>
           <div className="social-media">
-            <a href="https://www.facebook.com/kptv24">
+            <a href="https://www.facebook.com/kptv24" target="_blank">
               <img src={FaceBook} alt="facebook" height="40" width="40" />
             </a>
-            <a href="/">
+            <a href="/" target="_blank">
               <img
                 className="twiter"
                 src={Twiter}
@@ -46,7 +46,10 @@ const Footer = () => {
                 width="40"
               />
             </a>
-            <a href="https://www.youtube.com/@karigor_production">
+            <a
+              href="https://www.youtube.com/@karigor_production"
+              target="_blank"
+            >
               <img src={YouTube} alt="youtube" height="40" width="50" />
             </a>
           </div>
@@ -56,7 +59,7 @@ const Footer = () => {
           <a href="/about">About Us</a>
           <a href="/contact">Contact Us</a>
           <a href="/events">Events</a>
-          <a href="/gallery">Gallery</a>
+          <a href="/children">Children</a>
         </div>
         <div className="footer-contact-us">
           <h4>Contact Us</h4>
@@ -64,7 +67,10 @@ const Footer = () => {
             <a href="/">
               <img src={Location} alt="location" height="50" width="50" />
             </a>
-            <a href="/">
+            <a
+              href="https://www.google.com/maps/@26.6229841,-80.1158108,3a,75y,274.5h,90t/data=!3m6!1e1!3m4!1sdGWJyKVny4bUXrWa2BcDRw!2e0!7i16384!8i8192?entry=ttu"
+              target="_blank"
+            >
               <div>
                 <p>3726 Nyack Lane</p>
                 <p>Lake Worth, FL-33463</p>
@@ -80,7 +86,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="email">
-            <a href="/">
+            <a href="https://mail.google.com/mail/u/2/#inbox">
               <img src={Email} alt="email" height="40" width="40" />
             </a>
             <a href="/">
@@ -92,7 +98,10 @@ const Footer = () => {
       <hr />
       <div>
         <p className="copyright-note">
-          Copyright @<a href="https://psptech.net/">PSP Technology Inc</a>
+          Copyright @
+          <a href="https://psptech.net/" target="_blank">
+            PSP Technology Inc
+          </a>
         </p>
       </div>
     </div>
