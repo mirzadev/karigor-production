@@ -85,8 +85,8 @@ const Footer = () => {
               target="_blank"
             >
               <div>
-                <p>3726 Nyack Lane</p>
-                <p>Lake Worth, FL-33463</p>
+                <p className="location-address">3726 Nyack Lane</p>
+                <p className="location-address">Lake Worth, FL-33463</p>
               </div>
             </a>
           </div>
