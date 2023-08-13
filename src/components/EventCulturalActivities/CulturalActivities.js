@@ -57,8 +57,8 @@ function CulturalActivities() {
               shoulder to shoulder to make any cultural event successful.
               Whatever cultural projects they are assigned with, they always
               starts from the scratch and make the finest delivery to the
-              community. Karigor is the symbol of cuttural trust to
-              Bangladeshicommunity.
+              community. Karigor is the symbol of cuttural trust to Bangladeshi
+              community.
             </p>
           </div>
 
