@@ -6,6 +6,9 @@ import YouTube from "../Assets/footerItem/YouTube.png";
 import Location from "../Assets/footerItem/Location_Symbol.png";
 import Telephone from "../Assets/footerItem/Telephone_Logo.png";
 import Email from "../Assets/footerItem/Email_Logo.png";
+import DemandDistr from "../Assets/footerItem/DD-Logo1.png";
+import MiamiKDistr from "../Assets/footerItem/miami-k-distributions.png";
+import NepaWholesale from "../Assets/footerItem/nepa-wholesale.png";
 
 const Footer = () => {
   return (
@@ -31,7 +34,7 @@ const Footer = () => {
       </div>
 
       <div className="bottom">
-        <div>
+        <div className="social-media-div">
           <h4>Social Media</h4>
           <div className="social-media">
             <a href="https://www.facebook.com/kptv24" target="_blank">
@@ -56,10 +59,20 @@ const Footer = () => {
         </div>
         <div className="useful-links">
           <h4>Useful Links</h4>
-          <a href="/about">About Us</a>
-          <a href="/contact">Contact Us</a>
-          <a href="/events">Events</a>
-          <a href="/children">Children</a>
+          <div className="link-menues">
+            <div className="link-menu-1">
+              <a href="/about">About Us</a>
+              <a href="/contact">Contact Us</a>
+              <a href="/events">Events</a>
+              <a href="/children">Children</a>
+            </div>
+            <div className="link-menu-2">
+              <a href="/boishakh">Pohela Boishakh</a>
+              <a href="/ekCupCha">Ek Cup Cha</a>
+              <a href="/kpCulture">Cultural Events</a>
+              <a href="/kpNews">Karigor News</a>
+            </div>
+          </div>
         </div>
         <div className="footer-contact-us">
           <h4>Contact Us</h4>
@@ -82,7 +95,7 @@ const Footer = () => {
               <img src={Telephone} alt="telephone" height="35" width="35" />
             </a>
             <a>
-              <p>1(561) 779 4154 (Cell)</p>
+              <p className="telephone-number">1(561) 779 4154 (Cell)</p>
             </a>
           </div>
           <div className="email">
@@ -90,7 +103,34 @@ const Footer = () => {
               <img src={Email} alt="email" height="40" width="40" />
             </a>
             <a href="/">
-              <p>kptv24@gmail.com</p>
+              <p className="email-address">kptv24@gmail.com</p>
+            </a>
+          </div>
+        </div>
+        <div className="karigor-sponsors">
+          <h4>Our Proud Sponsors</h4>
+          <div className="sponsors-items">
+            <a href="https://demanddistribution.com/" target="_blank">
+              <img src={DemandDistr} alt="email" height="40" width="40" />
+            </a>
+            <a href="https://demanddistribution.com/" target="_blank">
+              <h5>Demand Distributions</h5>
+            </a>
+          </div>
+          <div className="sponsors-items">
+            <a href="https://miamikdistribution.com/" target="_blank">
+              <img src={MiamiKDistr} alt="email" height="40" width="160" />
+            </a>
+            <a href="https://miamikdistribution.com/" target="_blank">
+              <h5>Miami K Distributions</h5>
+            </a>
+          </div>
+          <div className="sponsors-items">
+            <a href="https://nepa2wholesale.com/" target="_blank">
+              <img src={NepaWholesale} alt="email" height="40" width="160" />
+            </a>
+            <a href="https://nepa2wholesale.com/" target="_blank">
+              <h5>NEPA Wholesale</h5>
             </a>
           </div>
         </div>

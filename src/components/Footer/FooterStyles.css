@@ -41,8 +41,8 @@
 }
 
 .twiter {
-  margin-left: 0.7rem;
-  margin-right: 0.7rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .social-media {
@@ -50,18 +50,39 @@
   justify-content: space-between;
 }
 
+.social-media-div h4 {
+  margin-bottom: 1rem;
+}
+
 .social-media a:hover {
   transform: scale(1.2);
 }
 
-.useful-links {
+.useful-links h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.link-menues {
+  display: flex;
+}
+
+.link-menu-1,
+.link-menu-2 {
   display: flex;
   flex-direction: column;
-  text-decoration: none;
+}
+.link-menu-1 {
+  padding-right: 3rem;
 }
 
 .useful-links a:hover {
   color: greenyellow;
+}
+
+.footer-contact-us h4 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .location-address {
@@ -69,13 +90,19 @@
   justify-content: space-between;
   margin-left: -0.5rem;
 }
+
 .footer-contact-us a img:hover {
   transform: scale(1.2);
 }
+
 .telephone,
 .email {
   display: flex;
-  justify-content: space-between;
+}
+
+.telephone-number,
+.email-address {
+  margin-left: 2rem;
 }
 
 .bottom a {
@@ -108,9 +135,25 @@
   font-size: 1.3rem;
 }
 
+.sponsors-items {
+  display: flex;
+}
+.sponsors-items a {
+  padding-right: 2rem;
+}
+
+.karigor-sponsors h4 {
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 850px) {
   .footer {
-    padding: 4rem 1rem;
+    padding: 3rem 4rem;
+  }
+
+  #footer-app-title {
+    font-size: 1.8rem;
   }
 
   .footer h4 {
@@ -118,10 +161,38 @@
   }
 
   .footer a {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .copyright-note {
     font-size: 1rem;
+  }
+
+  #footer-header {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #footer-header,
+  .social-media-div,
+  .useful-links,
+  .footer-contact-us,
+  .karigor-sponsors {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+
+  .karigor-sponsors {
+    margin-bottom: 2rem;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
   }
 }
