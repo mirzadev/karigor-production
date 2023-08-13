@@ -4,7 +4,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Events from "./routes/Events";
-import Gallery from "./routes/Gallery";
+import Children from "./routes/Children";
 import Boishakh from "./routes/Boishakh";
 import EkCupCha from "./routes/EkCupCha";
 import KpCulture from "./routes/KpCulture";
@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/children" element={<Children />} />
         <Route path="/ekCupCha" element={<EkCupCha />} />
         <Route path="/boishakh" element={<Boishakh />} />
         <Route path="/kpCulture" element={<KpCulture />} />
