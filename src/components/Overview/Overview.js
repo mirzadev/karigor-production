@@ -14,25 +14,11 @@ const Overview = () => {
       </p>
       <OverviewData
         heading="Karigor Production"
-        text="Karigor Production and Cultural Society is a cultural organization that mainly injects Bangladesh culture among the future generations. This Organization is full of local talents where everyone extends their service voluntarily"
+        text="Karigor Production and Cultural Society is a cultural organization that mainly injects Bangladesh culture among the future generations. This Organization is full of local talents where everyone extends their service voluntarily. "
         img1={homeOverview_1}
         img2={homeOverview_2}
       />
-      {/* <div className="overview-des">
-        <div className="overview-text">
-          <h2>Karigor Production</h2>
-          <p>
-            Karigor Production and Cultural Society is a cultural organization
-            that mainly injects Bangladesh culture among the future generations.
-            This Organization is full of local talents where everyone extends
-            their service voluntarily
-          </p>
-        </div>
-        <div className="home-image">
-          <img alt="img" src={homeOverview_1} />
-          <img alt="img" src={homeOverview_2} />
-        </div>
-      </div> */}
+
       <div className="history-des">
         <div className="history-image">
           <img alt="img" src={karigorHistory} />

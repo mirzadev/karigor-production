@@ -34,13 +34,12 @@ function KarigorChild() {
       </p>
 
       <div className="children-container">
+        <div className="children-des-heading">
+          <h3>Our Children</h3>
+        </div>
         <div className="children-des">
           <div className="children-text">
-            <div className="children-des-heading">
-              <h3>Our Children</h3>
-            </div>
-
-            <p>
+            <p className="children-text-1">
               Our childrens are the pride for we Bangladeshi. Many of them are
               born and brought up in Unites States. But none of them forgets
               their roots. These childrens are unique. The equally maintains two
@@ -50,7 +49,7 @@ function KarigorChild() {
               the best in their own class and after completing the education,
               the always glitters their light in their profession.
             </p>
-            <p>
+            <p className="children-text-2">
               Karigor is one of the lucky organization where all the parents in
               South Florida have their trust and confidence. Here childrens
               comes, learns and practices Bangladeshi culture from the very

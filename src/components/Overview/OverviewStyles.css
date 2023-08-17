@@ -4,10 +4,10 @@
 }
 
 .overview h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .overview p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding-bottom: 3rem;
 }
 
@@ -35,7 +35,7 @@
 .history-text {
   width: 60%;
   text-align: start;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-left: 4rem;
 }
 
@@ -43,7 +43,7 @@
 .mission-text {
   width: 60%;
   text-align: start;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-right: 4rem;
 }
 .overview-text h2,
@@ -51,13 +51,13 @@
 .history-text h2 {
   padding-bottom: 1rem;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .overview-text p,
 .mission-text p,
 .history-text p {
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .home-image {
@@ -109,7 +109,10 @@
 
 @media screen and (max-width: 850px) {
   .overview {
-    margin: 4rem 2rem;
+    margin: 2rem 1rem;
+  }
+  .overview h1 {
+    font-size: 1.8rem;
   }
   .overview p {
     padding-bottom: 1rem;
@@ -118,26 +121,26 @@
   .overview-des {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 
   .history-des {
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 
   .mission-des {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 
   .home-image,
   .mission-image,
   .history-image {
     width: 100%;
-    margin: 1.8rem 0;
+    margin: 1.5rem 0;
   }
   .overview-text,
   .mission-text,

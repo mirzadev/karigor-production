@@ -9,6 +9,7 @@ import Email from "../Assets/footerItem/Email_Logo.png";
 import DemandDistr from "../Assets/footerItem/DD-Logo1.png";
 import MiamiKDistr from "../Assets/footerItem/miami-k-distributions.png";
 import NepaWholesale from "../Assets/footerItem/nepa-wholesale.png";
+import pspTechLogo from "../Assets/footerItem/pspTech-logo.png";
 
 const Footer = () => {
   return (
@@ -111,38 +112,40 @@ const Footer = () => {
           <h4>Our Proud Sponsors</h4>
           <div className="sponsors-items">
             <a href="https://demanddistribution.com/" target="_blank">
-              <img src={DemandDistr} alt="email" height="40" width="40" />
+              <img src={DemandDistr} alt="demand" height="32" width="35" />
             </a>
             <a href="https://demanddistribution.com/" target="_blank">
-              <h5>Demand Distributions</h5>
+              <p>Demand Distributions</p>
             </a>
           </div>
           <div className="sponsors-items">
             <a href="https://miamikdistribution.com/" target="_blank">
-              <img src={MiamiKDistr} alt="email" height="40" width="160" />
+              <img src={MiamiKDistr} alt="miamiK" height="35" width="130" />
             </a>
             <a href="https://miamikdistribution.com/" target="_blank">
-              <h5>Miami K Distributions</h5>
+              <p>Miami K Distributions</p>
             </a>
           </div>
           <div className="sponsors-items">
             <a href="https://nepa2wholesale.com/" target="_blank">
-              <img src={NepaWholesale} alt="email" height="40" width="160" />
+              <img src={NepaWholesale} alt="email" height="35" width="130" />
             </a>
             <a href="https://nepa2wholesale.com/" target="_blank">
-              <h5>NEPA Wholesale</h5>
+              <p>NEPA Wholesale</p>
             </a>
           </div>
         </div>
       </div>
       <hr />
-      <div>
-        <p className="copyright-note">
-          Copyright @
-          <a href="https://psptech.net/" target="_blank">
-            PSP Technology Inc
-          </a>
-        </p>
+
+      <div className="copyright-note">
+        <p>Copyright @</p>
+        <a href="https://psptech.net/" target="_blank">
+          <img src={pspTechLogo} alt="psptech" height="35" width="35" />
+        </a>
+        <a href="https://psptech.net/" target="_blank">
+          <p>PSP Technology Inc</p>
+        </a>
       </div>
     </div>
   );

@@ -51,7 +51,7 @@ function contactForm() {
               </a>
             </div>
           </section>
-          <section>
+          <section className="social-section">
             <a href="https://www.facebook.com/kptv24">
               <img src={FaceBook} alt="facebook" height="50" width="50" />
             </a>

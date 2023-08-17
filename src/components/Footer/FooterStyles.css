@@ -18,7 +18,7 @@
 }
 #footer-app-title {
   color: whitesmoke;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   cursor: pointer;
 }
@@ -36,7 +36,7 @@
 }
 
 .footer h4 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding: 1rem 0 0.8rem 0;
 }
 
@@ -91,6 +91,12 @@
   margin-left: -0.5rem;
 }
 
+.location-address p,
+.telephone-number,
+.email-address {
+  font-size: 1rem;
+}
+
 .footer-contact-us a img:hover {
   transform: scale(1.2);
 }
@@ -108,7 +114,7 @@
 .bottom a {
   text-decoration: none;
   color: #fafafa;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-bottom: 0.5rem;
 }
 
@@ -117,8 +123,10 @@
 }
 
 .copyright-note {
+  display: flex;
   margin-top: 2rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  justify-content: center;
 }
 
 .copyright-note a {
@@ -129,10 +137,15 @@
 
 .copyright-note a:hover {
   color: greenyellow;
+  font-weight: bold;
+}
+
+.copyright-note a img:hover {
+  transform: scale(1.2);
 }
 
 .footer a {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .sponsors-items {
@@ -147,21 +160,29 @@
   margin-bottom: 1rem;
 }
 
+.sponsors-items p:hover {
+  color: greenyellow;
+}
+.sponsors-items a :hover {
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
 @media screen and (max-width: 850px) {
   .footer {
-    padding: 3rem 4rem;
+    padding: 1.5rem 2rem;
   }
 
   #footer-app-title {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   .footer h4 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .footer a {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .copyright-note {
@@ -184,7 +205,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .karigor-sponsors {

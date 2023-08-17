@@ -1,31 +1,31 @@
 .kpNews-heading {
-  font-size: 3rem;
+  margin-top: 2rem;
+  font-size: 2.5rem;
   color: rgb(6, 6, 146);
 }
 
 .kpNews-heading-expl {
   color: navy;
   font-family: sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .kpNews-container {
-  margin: 4rem 4rem;
+  margin: 2rem 4rem;
   color: rgb(6, 6, 146);
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .kpNews-des-heading {
   justify-content: start;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .kpNews-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3.5rem;
 }
 .kpNews-intro {
   display: flex;
@@ -34,36 +34,35 @@
 .kpNews-text {
   width: 60%;
   text-align: start;
-  font-size: 1.1rem;
   padding-left: 4rem;
 }
 
 .kpNews-text p {
   text-align: justify;
-  font-size: 1.4rem;
-  padding-top: 2rem;
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
 }
 
 #kpNews-image {
   position: relative;
   width: 100%;
+  height: 25rem;
   display: flex;
+  border-radius: 10px;
   justify-content: space-between;
   z-index: -99;
-  padding-top: 2.3rem;
+  margin-top: 2rem;
 }
 #kpNews-image img {
   width: 100%;
-  height: auto;
   object-fit: cover;
-  border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
 .kpNews-cart-heading {
   padding-top: 3rem;
   justify-content: start;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .kpNews-cart {
   margin-top: 2rem;
@@ -77,6 +76,14 @@
   box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
   border-radius: 7px;
   cursor: pointer;
+}
+
+.kpNews-episode h3 {
+  font-size: 1.2rem;
+}
+
+.kpNews-episode p {
+  font-size: 1.2rem;
 }
 
 .kpNews-episode-image {
@@ -97,11 +104,25 @@
 }
 
 @media screen and (max-width: 850px) {
+  .kpNews-heading {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .kpNews-heading-expl {
+    font-size: 1rem;
+  }
+
+  .kpNews-container {
+    margin: 1.5rem 2rem;
+    font-size: 1rem;
+  }
+
   .kpNews-des {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .kpNews-intro {
@@ -114,19 +135,29 @@
     padding-left: 0;
   }
 
-  .kpNews-text p {
-    width: 100%;
+  .kpNews-episode h3 {
+    font-size: 1rem;
   }
 
-  .kpNews-container {
-    margin: 4rem 2rem;
+  .kpNews-episode p {
+    font-size: 1rem;
   }
+
   .kpNews-cart {
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
   }
+
   .kpNews-episode {
     width: 100%;
+  }
+
+  #kpNews-image {
+    height: auto;
+    margin-top: 1rem;
+  }
+  .kpNews-cart-heading {
+    padding-top: 1rem;
   }
 }

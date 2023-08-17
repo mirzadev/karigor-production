@@ -21,7 +21,7 @@ class Navbar extends Component {
                   id="karigor-logo"
                   src={karigorLogo}
                   alt=""
-                  height="73"
+                  height="70"
                   width="110"
                 ></img>
               </span>
