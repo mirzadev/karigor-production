@@ -104,9 +104,11 @@ function PohelaBoishakh() {
                 </h2>
               </a>
             </div>
+            <h2 className="jatra-heading">
+              Theatre - The Salt (যাত্রাপালা - লবনের মত ভালবাসা)
+            </h2>
             <div className="jatra-des">
               <div className="jatra-text">
-                <h2>Theatre - The Salt (যাত্রাপালা - লবনের মত ভালবাসা)</h2>
                 <p>
                   The Jatra pala - Loboner Moto Bhalobasha, was one of the most
                   popular folk theatre staged by Karigor Production. In USA,
@@ -139,10 +141,10 @@ function PohelaBoishakh() {
               </div>
             </div>
           </div>
+          <div className="cultural-event-heading">
+            <h2>Cultural Events</h2>
+          </div>
           <div>
-            <div className="cultural-event-heading">
-              <h2>Cultural Events</h2>
-            </div>
             <p className="cultural-event-description">
               Karigor cultural events in Pohela Boishakh always has a touch of
               Bangladesh. The program had tremendous performance like songs,
@@ -176,16 +178,16 @@ function PohelaBoishakh() {
                 href="https://events.palmbeachculture.com/organization/110293879/american-german-club-of-the-palm-beaches"
                 target="_blank"
               >
-                <h2 className="boishakh-bryanPark-heading">
+                <h2 className="boishakh-GermanClub-heading">
                   Boishakh At American German Club-2022
                 </h2>
               </a>
             </div>
+            <h2 className="jatra-heading">
+              Theatre - Bader Maya Josna (যাত্রাপালা - বেদের মেয়ে জোসনা )
+            </h2>
             <div className="jatra-des">
               <div className="jatra-text">
-                <h2>
-                  Theatre - Bader Maya Josna (যাত্রাপালা - বেদের মেয়ে জোসনা )
-                </h2>
                 <p>
                   The Jatra pala - Bader Maya Josna is one of the famous theatre
                   in Bangla culture. As the story goes, a king had a new born
@@ -213,7 +215,11 @@ function PohelaBoishakh() {
                   href="https://www.youtube.com/watch?v=ILnXgk6MSqU"
                   target="_blank"
                 >
-                  <img id="jatra-image" alt="jatra-vdo" src={bederMayaJosna} />
+                  <img
+                    id="jatra-image-2"
+                    alt="jatra-vdo"
+                    src={bederMayaJosna}
+                  />
                 </a>
               </div>
             </div>
@@ -256,37 +262,37 @@ function PohelaBoishakh() {
               href="https://events.palmbeachculture.com/organization/110293879/american-german-club-of-the-palm-beaches"
               target="_blank"
             >
-              <h2 className="boishakh-bryanPark-heading">
+              <h2 className="boishakh-GermanClub-heading">
                 Boishakh At American German Club-2023
               </h2>
             </a>
           </div>
+          <h2 className="jatra-heading">
+            Theatre - Rupban (যাত্রাপালা - রুপবান)
+          </h2>
           <div className="jatra-des">
             <div className="jatra-text">
-              <h2>Theatre - Rupban (যাত্রাপালা - রুপবান)</h2>
               <p>
-                The Jatra pala - Rupban is one of the famous theatre in Bangla
-                culture. As the story goes, A king was without any child. One
-                day with the blessing of a religious mendicant the queen got
-                conceived with a boy. But the same religious mendicant also
-                cursed the king that the new born prince named Rahim will have
-                to be sent to assilam in a deep jungle on 12th day after birth
-                with 12 years old girl after marrage. If the king fails to do
-                so, the new born prince will not survive. As such, to save the
-                life of Rahim, the king arranged marrage with exact 12 years old
-                girl Rupban and sent them into a jungle. After few years, once
-                prince Rahim become adult, he fell inlove with princess Tajel
-                where none knew about their actual identity. At one time due to
-                this affairs, Rahim was arrested by another king where to save
-                Rahim's life, Rupban disclosed everyone about Rahim's actual
-                identity. Finally prince Rahim came back to his original kingdom
-                with Rupban. The theatre is full of romance and suspense.
+                Rupban is one of the famous theatre in Bangla culture. Here, A
+                king was without any child. One day with the blessing of a
+                religious mendicant the queen got conceived with a boy. But the
+                same religious mendicant also cursed the king that the new born
+                prince named Rahim will have to be sent to assilam in a deep
+                jungle on 12th day after birth with a 12 years old girl after
+                marrage. If the king fails to do so, the new born prince will
+                not survive. As such, to save the life of Rahim, the king
+                arranged marrage with exact 12 years old girl Rupban and sent
+                them into a jungle. After few years, once prince Rahim become
+                adult, he fell in love with princess Tajel where none knew about
+                their actual identity. At one time due to this affairs, Rahim
+                was arrested by another king where to save Rahim's life, Rupban
+                disclosed everyone about Rahim's actual identity. The theatre is
+                full of romance and suspense.
               </p>
               <p>
-                Main characters in the theatre were Mofazzol Hoque Rony, nandini
-                Bhowmik, Sonia, Shovon Anwar, Pollob, Mithel, Rajib, Ramesh,
-                Oporajita and many others. The theatre was directed by Atikur
-                Rahman.
+                Main characters are Mofazzol Hoque Rony, nandini Bhowmik, Sonia,
+                Shovon Anwar, Pollob, Mithel, Rajib, Ramesh, Oporajita and many
+                others. The theatre was directed by Atikur Rahman.
               </p>
             </div>
             <div>
@@ -294,7 +300,7 @@ function PohelaBoishakh() {
                 href="https://www.youtube.com/watch?v=2B3F0moME0g&t=261s"
                 target="_blank"
               >
-                <img id="jatra-image" alt="jatra-vdo" src={jatrapalaRupban} />
+                <img id="jatra-image-2" alt="jatra-vdo" src={jatrapalaRupban} />
               </a>
             </div>
           </div>
@@ -328,10 +334,11 @@ function PohelaBoishakh() {
             <img alt="child-image" src={audience4} />
           </div>
         </div>
+
+        <div className="rotnogorbha-heading">
+          <h2>Award Giving Ceremony - Karigor Rotnogorbha-1430</h2>
+        </div>
         <div>
-          <div className="rotnogorbha-heading">
-            <h2>Award Giving Ceremony - Karigor Rotnogorbha-1430</h2>
-          </div>
           <p className="rotnogorbha-description">
             Karigor production organized "Karigor Rotnogorbha-1430" for the
             first time in USA. The aim of this award show is to encourage our
@@ -352,7 +359,7 @@ function PohelaBoishakh() {
               <div className="rotnogotbha-image">
                 <img src={rotnogorbhaSharifa} alt="dinara-pic" />
               </div>
-              <h2>Dr. Sharifa Dinara</h2>
+              <h2>Dr. Sharifa Dinara, PhD</h2>
             </div>
             <div className="rotnogorbha-des">
               <div className="rotnogotbha-image">

@@ -13,11 +13,11 @@ function KarigorNews() {
         Always Update With Bangladeshi Community
       </p>
       <div className="kpNews-container">
+        <div className="kpNews-des-heading">
+          <h3>Introduction</h3>
+        </div>
         <div className="kpNews-des">
           <div>
-            <div className="kpNews-des-heading">
-              <h3>Introduction</h3>
-            </div>
             <div className="kpNews-intro">
               <div className="kpNews-intro-image">
                 <a

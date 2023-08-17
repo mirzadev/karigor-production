@@ -34,12 +34,11 @@ function CulturalActivities() {
       </p>
 
       <div className="cultural-container">
+        <div className="cultural-des-heading">
+          <h3>Background</h3>
+        </div>
         <div className="cultural-des">
           <div className="cultural-text">
-            <div className="cultural-des-heading">
-              <h3>Background</h3>
-            </div>
-
             <p>
               Karigor organizes different cultural events including Anando Mela,
               Drama, musical events or picnics. Each of these are very popular
@@ -51,7 +50,7 @@ function CulturalActivities() {
               and Cultural Show. Karigor has the honor to create short films,
               drama, music videos etc using their own talents.
             </p>
-            <p>
+            <p className="cultural-des-2">
               Karigor is an entity that is full of innovations in cultural
               arena. This is the unique organization where everyone works
               shoulder to shoulder to make any cultural event successful.

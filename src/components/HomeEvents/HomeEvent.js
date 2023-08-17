@@ -31,7 +31,7 @@ function HomeEvent() {
         <HomeEventData
           image={HomeEvent7}
           heading="Cultural Events"
-          text="Karigor organizes different cultural events including Anando Mela, Drama, musical events or picnics. Each of these are very popular to the Bangladeshi community."
+          text="Karigor organizes different cultural events including Anando Mela, Drama, Musical Events or Picnics - where all are very popular to the Bangladeshi community."
           url="/kpCulture"
         />
 

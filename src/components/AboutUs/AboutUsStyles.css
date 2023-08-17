@@ -1,5 +1,5 @@
 .about-container {
-  margin: 4rem 4rem;
+  margin: 3rem 1.5rem;
   color: rgb(6, 6, 146);
 }
 
@@ -20,14 +20,14 @@
 .vision-text {
   width: 60%;
   text-align: start;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-left: 4rem;
 }
 
 .objective-text {
   width: 60%;
   text-align: start;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-right: 4rem;
 }
 
@@ -35,13 +35,13 @@
 .vision-text h2 {
   padding-bottom: 1rem;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .objective-text p,
 .vision-text p {
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .vision-image {
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 850px) {
   .overview {
-    margin: 4rem 2rem;
+    margin: 1.5rem 1.5rem;
   }
   .overview p {
     padding-bottom: 1rem;
@@ -85,19 +85,19 @@
   .objective-des {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
   .vision-des {
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 
   .home-image,
   .objective-image,
   .vision-image {
     width: 100%;
-    margin: 1.8rem 0;
+    margin: 1.5rem 0;
   }
   .overview-text,
   .vision-text,

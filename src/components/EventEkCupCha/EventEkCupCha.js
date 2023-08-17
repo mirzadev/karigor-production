@@ -36,7 +36,7 @@ import ekCupChaEpi26 from "../Assets/ekCupCha/ekCupCha-26.jpg";
 import ekCupChaEpi27 from "../Assets/ekCupCha/ekCupCha-27.jpg";
 import ekCupChaEpi28 from "../Assets/ekCupCha/ekCupCha-28.jpg";
 import ekCupChaEpi29 from "../Assets/ekCupCha/ekCupCha-29.jpg";
-import ekCupChaEpi30 from "../Assets/ekCupCha/ekCupCha-10B.jpg";
+import ekCupChaEpi30 from "../Assets/ekCupCha/ekCupCha-30.jpg";
 
 function EventEkCupCha() {
   return (
@@ -45,12 +45,13 @@ function EventEkCupCha() {
       <p className="ekCupCha-heading-expl">
         Most Prestegious Show in South Florida
       </p>
+
       <div className="ekCupCha-container">
+        <div className="ekCupCha-des-heading">
+          <h3>Background</h3>
+        </div>
         <div className="ekCupCha-des">
           <div className="ekCupCha-text">
-            <div className="ekCupCha-des-heading">
-              <h3>Background</h3>
-            </div>
             <p>
               Ek Cup Cha which means "A Cup of Tea" is presently one of the most
               prestegious reality show in South Florida. In this show the
@@ -59,7 +60,7 @@ function EventEkCupCha() {
               main purpose of the show is to highlight the talented
               Bangladeshies in the community who are successful in their own
               profession. The show also targeted to share the success stories of
-              these heroes in order to inspire other community members. So for
+              these heroes in order to inspire other community members. So far
               individuals from different professions like, doctors, engineers,
               professiors, journalists, IT professionals, realators,
               accountants, lawyers, social workers, enterprenours and insurance
@@ -67,8 +68,7 @@ function EventEkCupCha() {
               The show participants were not limited to only professionals but
               also young stars from Bangladeshi community who did outstanding
               results in their educational career were also invited to
-              participate in the show. Every participants shared their secret of
-              achieving success in their own professions.
+              participate in the show.
             </p>
           </div>
           <div className="ekCupCha-intro-image">
@@ -80,12 +80,12 @@ function EventEkCupCha() {
             </a>
           </div>
         </div>
-        <p>
+        <p className="ekCupCha-host-info">
           The show is hosted by Major Mirza Abdul Awal, psc (Retired) and
           directed by Mohammed J Alam Tipu. Main sponsor and inspirations are :
           Tahmida Jaman Anis, Rozina Khan, Mofazzol Hoque Rony, Anik Dev,
           Devjyoti Sen, Raju Ahmed, Abdullah Ripon, Nandini Bhowmik, Iffat
-          Ahnaff, Kakoli Chowdhury, Rashed Ckowdhury, Ramesh Kundo, and Nadira
+          Ahnaff, Kakoli Chowdhury, Rashed Kalam, Ramesh Kundo, and Nadira
           Akter.
         </p>
 
@@ -143,7 +143,7 @@ function EventEkCupCha() {
                 <img src={ekCupChaEpi2A} alt="epic2A" />
               </div>
               <h3>Mr. Junaid Akter</h3>
-              <p>Politician - Entrepreneur </p>
+              <p>Politician - Entrepreneur</p>
               <p>Episode - 2 (Part-1)</p>
             </a>
           </div>
@@ -597,33 +597,33 @@ function EventEkCupCha() {
           <div className="ekCupCha-episode">
             <a
               className="episode-link"
-              href="https://www.youtube.com/watch?v=uUxb9yNcr1o&t=141s"
-              target="_blank"
-            >
-              <div className="ekCupCha-episode-image">
-                <img src={ekCupChaEpi29} alt="epic29" />
-              </div>
-
-              <h3>Dr. B M Atiquzzaman, MD</h3>
-              <p>Gastroenterologist</p>
-              <p>Episode - 29</p>
-            </a>
-          </div>
-          {/* <div className="ekCupCha-episode">
-            <a
-              className="episode-link"
               href="https://www.youtube.com/watch?v=2M7FIcm9mnA"
               target="_blank"
             >
               <div className="ekCupCha-episode-image">
-                <img src={ekCupChaEpi26} alt="epic30" />
+                <img src={ekCupChaEpi29} alt="epic30" />
               </div>
 
-              <h3>Dr. Asahi Maksura Hossain, MD</h3>
-              <p>Doctor (Youngest in USA History)</p>
-              <p>Episode - 26</p>
+              <h3>Mr. Hasan Jahangir</h3>
+              <p>Politician - Entrepreneur</p>
+              <p>Episode - 29</p>
             </a>
-          </div> */}
+          </div>
+          <div className="ekCupCha-episode">
+            <a
+              className="episode-link"
+              href="https://www.youtube.com/watch?v=uUxb9yNcr1o&t=141s"
+              target="_blank"
+            >
+              <div className="ekCupCha-episode-image">
+                <img src={ekCupChaEpi30} alt="epic30" />
+              </div>
+
+              <h3>Dr. B M Atiquzzaman, MD</h3>
+              <p>Gastroenterologist</p>
+              <p>Episode - 30</p>
+            </a>
+          </div>
         </div>
       </div>
     </div>

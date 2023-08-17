@@ -1,54 +1,52 @@
 .children-heading {
-  font-size: 3rem;
+  margin-top: 2rem;
+  font-size: 2.5rem;
   color: rgb(6, 6, 146);
 }
 
 .children-heading-expl {
   color: navy;
   font-family: sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .children-container {
-  margin: 4rem 4rem;
+  margin: 2rem 4rem;
   color: rgb(6, 6, 146);
   text-align: justify;
-  font-size: 1.4rem;
 }
 
 .children-des-heading {
   justify-content: start;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .children-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3.5rem;
 }
 
 .children-text {
-  width: 60%;
+  width: 70%;
   text-align: start;
-  font-size: 1.1rem;
   padding-right: 4rem;
 }
 
 .children-text p {
   text-align: justify;
-  font-size: 1.4rem;
-  padding-top: 2rem;
+  font-size: 1.2rem;
+  padding-top: 1rem;
 }
 
 #children-image {
   position: relative;
   width: 100%;
-  height: 35rem;
+  height: 25rem;
   display: flex;
+  border-radius: 10px;
   justify-content: space-between;
   z-index: -99;
-  padding-top: 5rem;
 }
 #children-image img {
   width: 100%;
@@ -58,9 +56,9 @@
 }
 
 .children-cart-heading {
-  padding-top: 3rem;
+  padding-top: 2rem;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .children-cart-heading h3 {
@@ -68,9 +66,9 @@
 }
 
 .children-des-heading-gallery {
-  padding-top: 3rem;
+  padding-top: 2rem;
   justify-content: start;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 
 .children-event-gallery {
@@ -86,7 +84,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   z-index: -99;
@@ -107,6 +105,14 @@
   cursor: pointer;
 }
 
+.children-episode h3 {
+  font-size: 1.2rem;
+}
+
+.children-episode p {
+  font-size: 1.2rem;
+}
+
 .children-episode-image {
   height: auto;
   overflow: hidden;
@@ -125,11 +131,20 @@
 }
 
 @media screen and (max-width: 850px) {
+  .children-heading {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .children-container {
+    margin: 2rem 2rem;
+  }
+
   .children-des {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1rem;
   }
 
   .children-text {
@@ -140,18 +155,27 @@
 
   .children-text p {
     width: 100%;
+    font-size: 1rem;
+  }
+  .children-text-2 {
+    margin-bottom: 1rem;
   }
 
-  .children-container {
-    margin: 4rem 2rem;
-  }
   .children-cart {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
   }
   .children-episode {
     width: 100%;
+  }
+
+  .children-episode h3 {
+    font-size: 1rem;
+  }
+
+  .children-episode p {
+    font-size: 1rem;
   }
 
   .children-event-gallery {
@@ -161,10 +185,19 @@
   }
 
   #children-image {
-    position: relative;
     width: 100%;
-    height: 25rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
+  }
+
+  .children-cart-heading {
+    padding-top: 1rem;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  .children-des-heading-gallery {
+    padding-top: 1rem;
   }
 }
