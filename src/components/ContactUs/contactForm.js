@@ -22,7 +22,12 @@ function contactForm() {
               <span>Email</span>
             </div>
             <div>
-              <a id="contact_email" href="#">
+              <a
+                id="contact_email"
+                href="https://mail.google.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 kptv24@gmail.com
               </a>
             </div>
@@ -42,7 +47,12 @@ function contactForm() {
               <span>Address</span>
             </div>
             <div>
-              <a id="address-link" href="https://goo.gl/maps/ACDRTDuS95NyYoPA8">
+              <a
+                id="address-link"
+                href="https://goo.gl/maps/ACDRTDuS95NyYoPA8"
+                target="_blank"
+                rel="noreferrer"
+              >
                 3726 Nyack Lane
                 <br />
                 Lake Worth, FL 33463
@@ -52,7 +62,11 @@ function contactForm() {
             </div>
           </section>
           <section className="social-section">
-            <a href="https://www.facebook.com/kptv24">
+            <a
+              href="https://www.facebook.com/kptv24"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={FaceBook} alt="facebook" height="50" width="50" />
             </a>
             <a href="/">
@@ -64,7 +78,11 @@ function contactForm() {
                 width="50"
               />
             </a>
-            <a href="https://www.youtube.com/@karigor_production">
+            <a
+              href="https://www.youtube.com/@karigor_production"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={YouTube} alt="youtube" height="50" width="60" />
             </a>
           </section>
