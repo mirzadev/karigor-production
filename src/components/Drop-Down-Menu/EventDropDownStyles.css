@@ -59,6 +59,6 @@
   display: block;
 }
 
-#event-menu:hover + .event-submenu:hover {
+#event-menu:hover + .event-submenu {
   display: block;
 }

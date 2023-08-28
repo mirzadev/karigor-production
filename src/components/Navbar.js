@@ -4,15 +4,14 @@ import karigorLogo from "./Assets/karigor-logo.PNG";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
-
 import Dropdown from "./Drop-Down-Menu/EventDropDown";
-// import backgroundVdo from "./Assets/homeEventImage/home_background.mp4";
 
 class Navbar extends Component {
   state = { clicked: false };
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
+
   // const [dropdown, setDropdown] = useState(false);
   render() {
     return (
