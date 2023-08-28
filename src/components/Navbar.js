@@ -9,11 +9,11 @@ import Dropdown from "./Drop-Down-Menu/EventDropDown";
 // import backgroundVdo from "./Assets/homeEventImage/home_background.mp4";
 
 class Navbar extends Component {
-  // const [dropdown, setDropdown] = useState(false);
   state = { clicked: false };
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
+  // const [dropdown, setDropdown] = useState(false);
   render() {
     return (
       <div>
@@ -44,26 +44,29 @@ class Navbar extends Component {
           <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
             {MenuItems.map((item, index) => {
               if (item.title === "Events") {
-                <li key={index}>
-                  <Link className={item.CName} to={item.url}>
-                    <i className={item.icon}></i>
-                    {item.title}
-                  </Link>
-                  <Dropdown />
-                </li>;
+                return (
+                  <li key={item.id} className={item.CName}>
+                    <Link id="event-menu" to={item.url}>
+                      <i className={item.icon}></i> {item.title}
+                      <i className={item.ddIcon} id="event-drop-menu"></i>
+                    </Link>
+                    {/* {dropdown && <Dropdown />} */}
+                    <Dropdown />
+                  </li>
+                );
               }
               return (
                 <li key={index}>
                   <Link className={item.CName} to={item.url}>
                     <i className={item.icon}></i>
                     {item.title}
+                    <i className={item.ddIcon}></i>
                   </Link>
                 </li>
               );
             })}
             <button className="signup">Sign Up</button>
           </ul>
-          <Dropdown />
         </nav>
       </div>
     );

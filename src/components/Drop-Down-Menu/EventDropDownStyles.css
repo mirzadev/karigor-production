@@ -1,14 +1,42 @@
 .event-submenu {
-  width: 10rem;
+  margin-top: 1.2rem;
+  width: 10.2rem;
   position: absolute;
   list-style: none;
   text-align: start;
   padding: 1rem 0.3rem;
-  background: rgb(69, 131, 36);
+  background: rgb(31, 101, 101);
+  border: solid rgb(31, 101, 101);
+  border-radius: 1rem;
+  display: none;
+}
+
+.dropdown-links {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.7rem 0.6rem;
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+}
+
+#event-drop-menu {
+  margin-left: 0.5rem;
+}
+
+#event-menu {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
 }
 
 .event-submenu li {
-  background: rgb(o, 212, 212s);
+  padding: 0.5rem;
 }
 
 .event-submenu.clicked {
@@ -22,8 +50,15 @@
   text-decoration: none;
   color: white;
   padding: 3rem;
+  display: block;
 }
 
-.submenu-item:hover {
+.dropdown-links:hover {
   background: rgb(46, 85, 24);
+  color: gold;
+  display: block;
+}
+
+#event-menu:hover + .event-submenu:hover {
+  display: block;
 }
