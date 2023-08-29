@@ -1,5 +1,5 @@
 .event-submenu {
-  margin-top: 1.2rem;
+  margin-top: 0.6rem;
   width: 10.2rem;
   position: absolute;
   list-style: none;
@@ -8,7 +8,7 @@
   background: rgb(31, 101, 101);
   border: solid rgb(31, 101, 101);
   border-radius: 1rem;
-  display: none;
+  /* display: none; */
 }
 
 .dropdown-links {
@@ -59,6 +59,6 @@
   display: block;
 }
 
-#event-menu:hover + .event-submenu {
+/* #event-menu:hover + .event-submenu {
   display: block;
-}
+} */
