@@ -1,14 +1,14 @@
-import Hero from "../components/Hero";
 import Footer from "../components/Footer/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarItems/Navbar";
 import boishakhCoverPic from "../components/Assets/contactCoverPic.jpg";
 import KarigorNews from "../components/EventKpNews/KarigorNews";
+import HeroOther from "../components/HeroSection/HeroOther";
 
 function KpCulture() {
   return (
     <>
       <Navbar />
-      <Hero
+      <HeroOther
         cName="hero-news"
         heroImg={boishakhCoverPic}
         titleOther="Karigor News"

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import karigorLogo from "./Assets/karigor-logo.PNG";
+import karigorLogo from "../Assets/karigor-logo.PNG";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
-import Dropdown from "./Drop-Down-Menu/EventDropDown";
+import Dropdown from "../Drop-Down-Menu/EventDropDown";
 
 function Navbar() {
   const [dropdown, setDropdown] = useState(false);

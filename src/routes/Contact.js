@@ -1,14 +1,14 @@
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarItems/Navbar";
 import Footer from "../components/Footer/Footer";
 import ContactForm from "../components/ContactUs/contactForm";
 import contactCoverPic from "../components/Assets/contactCoverPic.jpg";
+import HeroOther from "../components/HeroSection/HeroOther";
 
 function Contact() {
   return (
     <>
       <Navbar />
-      <Hero
+      <HeroOther
         cName="hero-contact"
         heroImg={contactCoverPic}
         titleOther="Contact Us"

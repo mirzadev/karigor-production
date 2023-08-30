@@ -12,9 +12,6 @@ function Hero(props) {
             {props.buttonText}
           </a>
         </div>
-        <div className="hero-other-page">
-          <h1 id="other-page-title">{props.titleOther}</h1>
-        </div>
       </div>
     </>
   );
