@@ -90,9 +90,9 @@ body {
 
 @media screen and (max-width: 850px) {
   #app-title {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    margin-right: 0.7rem;
+    margin-right: 0.6rem;
   }
 
   .NavbarItems {
