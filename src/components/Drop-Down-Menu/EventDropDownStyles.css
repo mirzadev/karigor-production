@@ -8,7 +8,6 @@
   background: rgb(31, 101, 101);
   border: solid rgb(31, 101, 101);
   border-radius: 1rem;
-  display: none;
 }
 
 .dropdown-links {
@@ -20,6 +19,9 @@
   white-space: nowrap;
   width: 100%;
   height: 100%;
+}
+.dropdown-links:hover {
+  color: goldenrod;
 }
 
 #event-drop-menu {
@@ -35,6 +37,9 @@
   white-space: nowrap;
 }
 
+#event-menu:hover {
+  color: goldenrod;
+}
 .event-submenu li {
   padding: 0.5rem;
 }
@@ -53,12 +58,36 @@
   display: block;
 }
 
-.dropdown-links:hover {
-  background: rgb(46, 85, 24);
-  color: gold;
-  display: block;
-}
+@media screen and (max-width: 850px) {
+  .event-submenu {
+    margin-top: -2rem;
+    width: 8rem;
+    padding: 0.5rem 0.3rem;
+    background: rgb(31, 101, 101);
+    border: solid rgb(31, 101, 101);
+  }
 
-#event-menu:hover + .event-submenu {
-  display: block;
+  #event-menu {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem 0.6rem;
+    white-space: nowrap;
+  }
+  .dropdown-links {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.5rem 0.4rem;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+  }
+  .dropdown-links:hover {
+    background: none;
+    color: goldenrod;
+    display: block;
+  }
 }
