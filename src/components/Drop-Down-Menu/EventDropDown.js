@@ -1,6 +1,6 @@
 import "./EventDropDownStyles.css";
 import React, { useState } from "react";
-import { EventDropDownMenu } from "../MenuItems";
+import { EventDropDownMenu } from "../NavbarItems/MenuItems";
 import { Link } from "react-router-dom";
 
 function Dropdown() {
