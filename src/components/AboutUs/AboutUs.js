@@ -34,8 +34,8 @@ function AboutUs() {
                 Karigor administration.
               </li>
               <li>
-                Maintain very good relation with all other orgations in Florida
-                and USA.
+                Maintain very good relationship with all other organizations in
+                Florida and USA.
               </li>
             </ul>
           </p>

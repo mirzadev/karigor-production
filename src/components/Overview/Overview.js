@@ -1,7 +1,7 @@
-import homeOverview_1 from "../Assets/Karigor-1.jpg";
-import homeOverview_2 from "../Assets/Karigor-2.jpg";
-import karigorMission from "../Assets/Karigor-3.jpg";
-import karigorHistory from "../Assets/Karigor-4.jpg";
+import homeOverview_1 from "../Assets/homePage/overview-1.jpg";
+import homeOverview_2 from "../Assets/homePage/overview-2.jpg";
+import karigorMission from "../Assets/homePage/overview-3.jpg";
+import karigorHistory from "../Assets/homePage/overview-4.jpg";
 import "./OverviewStyles.css";
 import OverviewData from "./OverviewData";
 const Overview = () => {
