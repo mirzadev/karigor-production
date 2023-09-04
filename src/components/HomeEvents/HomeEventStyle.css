@@ -75,6 +75,7 @@
 
   .home-event-cart {
     flex-direction: column;
+    margin-top: 1.5rem;
   }
 
   .home-event-cart h2 {

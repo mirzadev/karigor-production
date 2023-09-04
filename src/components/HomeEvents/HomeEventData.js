@@ -2,7 +2,7 @@ import "./HomeEventStyle.css";
 
 function HomeEventData(props) {
   const handleClick = () => {
-    console.log("hello World");
+    // console.log("hello World");
   };
   return (
     <div className="homeEventDataCart">
