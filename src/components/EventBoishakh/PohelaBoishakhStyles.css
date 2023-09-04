@@ -332,14 +332,14 @@
   }
 
   .jatra-heading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-top: 1.5rem;
   }
 
   .jatra-des {
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 
   #jatra-image,
@@ -355,31 +355,31 @@
   }
 
   .boishakh-main-heading {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   .boishakh-history-heading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .boishakh-bryanPark-heading,
   .boishakh-GermanClub-heading {
-    padding-top: 2.5rem;
-    font-size: 1.7rem;
+    padding-top: 1rem;
+    font-size: 1.4rem;
   }
 
   .jatra-text h2 {
     padding-bottom: 0.7rem;
     justify-content: center;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .cultural-event-heading {
-    margin-top: 1rem;
+    margin-top: 0.2rem;
   }
 
   .cultural-event-heading h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .cultural-event-children,
@@ -394,6 +394,10 @@
     justify-content: center;
   }
 
+  .rotnogorbha-heading h2 {
+    font-size: 1.3rem;
+  }
+
   .rotnogorbha-cart {
     margin-top: 1.5rem;
     display: flex;
@@ -406,6 +410,12 @@
 
   .rotnogorbha-text {
     padding-right: 1rem;
+  }
+
+  .gombhira-heading {
+    margin-top: 2rem;
+    text-align: start;
+    font-size: 1.3rem;
   }
 
   .gombhira-des {

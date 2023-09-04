@@ -145,7 +145,7 @@
 }
 
 .footer a {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .sponsors-items {
@@ -174,19 +174,19 @@
   }
 
   #footer-app-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .footer h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .footer a {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .copyright-note {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   #footer-header {
@@ -207,6 +207,9 @@
     margin-right: auto;
     margin-top: 1rem;
   }
+  #footer-header p {
+    font-size: 0.9rem;
+  }
 
   .karigor-sponsors {
     margin-bottom: 2rem;
@@ -215,5 +218,10 @@
   .bottom {
     display: flex;
     flex-direction: column;
+  }
+  .location-address p,
+  .telephone-number,
+  .email-address {
+    font-size: 0.9rem;
   }
 }

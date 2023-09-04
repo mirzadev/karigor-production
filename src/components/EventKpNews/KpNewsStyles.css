@@ -105,8 +105,8 @@
 
 @media screen and (max-width: 850px) {
   .kpNews-heading {
-    margin-top: 1.5rem;
-    font-size: 2rem;
+    margin-top: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .kpNews-heading-expl {
@@ -116,6 +116,10 @@
   .kpNews-container {
     margin: 1.5rem 2rem;
     font-size: 1rem;
+  }
+
+  .kpNews-des-heading {
+    font-size: 1.3rem;
   }
 
   .kpNews-des {
@@ -133,6 +137,11 @@
   .kpNews-text {
     width: 100%;
     padding-left: 0;
+  }
+
+  .kpNews-text p {
+    font-size: 1rem;
+    padding-top: 1rem;
   }
 
   .kpNews-episode h3 {
@@ -159,5 +168,6 @@
   }
   .kpNews-cart-heading {
     padding-top: 1rem;
+    font-size: 1.3rem;
   }
 }

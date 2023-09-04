@@ -1,10 +1,10 @@
 .overview {
-  margin: 4rem 4rem;
+  margin: 2rem 4rem;
   color: rgb(6, 6, 146);
 }
 
 .overview h1 {
-  font-size: 3rem;
+  font-size: 2.65rem;
 }
 .overview p {
   font-size: 1.2rem;
@@ -15,21 +15,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 2.5rem;
+  margin-top: 0.5rem;
 }
 
 .history-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .mission-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 6.5rem;
+  margin-top: 0.5rem;
 }
 
 .karigor-mission {
@@ -158,6 +158,7 @@
     display: flex;
     flex-direction: column-reverse;
     margin-top: 1rem;
+    width: 100%;
   }
 
   .history-des {
@@ -170,6 +171,7 @@
     display: flex;
     flex-direction: column-reverse;
     margin-top: 0.5rem;
+    padding-left: 0;
   }
 
   .home-image,
@@ -178,13 +180,23 @@
     width: 100%;
     margin: 1.5rem 0;
   }
-  .overview-text,
+
   .history-text {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
   }
-  .overview-text h2 {
+  .overview-text {
+    margin-left: -4rem;
+  }
+
+  .overview-text p {
+    width: 110%;
+    padding-right: 0;
+  }
+  .overview-text h2,
+  .mission-text h2,
+  .history-text h2 {
     justify-content: space-evenly;
     font-size: 1.3rem;
   }

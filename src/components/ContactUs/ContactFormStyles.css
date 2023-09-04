@@ -69,8 +69,8 @@
   }
 
   .form-container h1 {
-    font-weight: 800;
-    font-size: 1.6rem;
+    font-weight: 700;
+    font-size: 1.5rem;
   }
   .form-items form {
     padding-top: 2rem;
@@ -81,10 +81,10 @@
   }
 
   .form-items form ::placeholder {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .contact-sections {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .social-section {

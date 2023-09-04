@@ -375,8 +375,8 @@ function EventEkCupCha() {
                 <img src={ekCupChaEpi14} alt="epic14" />
               </div>
               <h3>Mr Shouquat Ali Imon</h3>
-              <p>Music Composer</p>
-              <h3>Miss Chitra Sultana</h3>
+              <p>Music Composer and National Film Fare Award Winner</p>
+              <h3>Chitra Sultana</h3>
               <p>Cultural Personality</p>
               <p>Episode - 14</p>
             </a>

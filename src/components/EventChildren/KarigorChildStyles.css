@@ -133,7 +133,11 @@
 @media screen and (max-width: 850px) {
   .children-heading {
     margin-top: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .children-heading-expl {
+    font-size: 1rem;
   }
 
   .children-container {
@@ -193,11 +197,16 @@
 
   .children-cart-heading {
     padding-top: 1rem;
-    justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .children-des-heading-gallery {
     padding-top: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .children-des-heading {
+    justify-content: start;
+    font-size: 1.3rem;
   }
 }

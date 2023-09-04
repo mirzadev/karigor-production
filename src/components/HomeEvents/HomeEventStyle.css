@@ -1,5 +1,5 @@
 .home-event {
-  margin: 2rem 6rem;
+  margin: 3rem 6rem;
   color: rgb(4, 4, 128);
 }
 
@@ -66,16 +66,34 @@
 
 @media screen and (max-width: 850px) {
   .home-event {
-    margin: 4rem 2rem;
+    margin: 2rem 2rem;
   }
+
+  .home-event h1 {
+    font-size: 1.3rem;
+  }
+
   .home-event-cart {
     flex-direction: column;
   }
+
+  .home-event-cart h2 {
+    font-size: 1rem;
+  }
+
   .homeEventDataCart {
     width: 100%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
   .homeEventDataCart-image {
     height: auto;
+  }
+
+  .home-event p {
+    font-size: 1rem;
+  }
+
+  .event-button {
+    font-size: 1rem;
   }
 }

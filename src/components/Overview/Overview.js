@@ -98,7 +98,6 @@ const Overview = () => {
             <img alt="img" src={karigorMissionG} />
             <img alt="img" src={karigorMissionH} />
           </div>
-          <div></div>
         </div>
         <div className="mission-image">
           <img alt="img" src={karigorMission} />

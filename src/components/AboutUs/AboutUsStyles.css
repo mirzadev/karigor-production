@@ -1,34 +1,42 @@
 .about-container {
-  margin: 3rem 1.5rem;
+  margin: 2rem 1.5rem;
   color: rgb(6, 6, 146);
+  padding: 2rem;
 }
 
 .vision-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4.5rem;
+  margin-top: 0.5rem;
 }
 
 .objective-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 6.5rem;
+  margin-top: 3.5rem;
 }
 
 .vision-text {
   width: 60%;
   text-align: start;
-  font-size: 1rem;
-  padding-left: 4rem;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 4rem;
 }
 
 .objective-text {
   width: 60%;
   text-align: start;
-  font-size: 1rem;
-  padding-right: 4rem;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-right: 4rem;
+  padding-left: 3rem;
 }
 
 .objective-text h2,
@@ -44,10 +52,16 @@
   font-size: 1.2rem;
 }
 
+.objective-list {
+  padding-bottom: 1rem;
+}
+
+.objective-list li {
+  padding: 0.4rem;
+}
 .vision-image {
   position: relative;
   width: 60%;
-  display: flex;
   justify-content: space-between;
   z-index: -99;
 }
@@ -75,6 +89,10 @@
 }
 
 @media screen and (max-width: 850px) {
+  .about-container {
+    margin: 0.5rem 1.5rem;
+    padding: 0.3rem;
+  }
   .overview {
     margin: 1.5rem 1.5rem;
   }
@@ -85,28 +103,55 @@
   .objective-des {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+    padding-left: 0rem;
   }
   .vision-des {
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
   }
 
   .home-image,
-  .objective-image,
   .vision-image {
     width: 100%;
     margin: 1.5rem 0;
   }
-  .overview-text,
-  .vision-text,
-  .objective-text {
+
+  .objective-image {
+    width: 100%;
+    /* margin-left: -2rem; */
+  }
+
+  .overview-text {
     width: 100%;
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 2rem;
   }
-  .overview-text h2 {
+
+  /* .overview-text h2 {
     justify-content: space-evenly;
+  } */
+  .vision-text {
+    width: 100%;
+    text-align: start;
+    border-radius: 7px;
+    margin-left: 0;
+  }
+
+  .vision-text p {
+    font-size: 1rem;
+  }
+
+  .objective-text {
+    width: 100%;
+    text-align: start;
+    border-radius: 7px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+
+  .objective-text p {
+    font-size: 1rem;
   }
 }
