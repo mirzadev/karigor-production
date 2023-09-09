@@ -1,5 +1,5 @@
 import homeOverview_1 from "../Assets/homePage/overview-1.jpg";
-import homeOverview_2 from "../Assets/homePage/overview-2.jpg";
+import homeOverview_2 from "../Assets/homePage/overview-6.jpg";
 import karigorMission from "../Assets/homePage/overview-3.jpg";
 import karigorHistory from "../Assets/homePage/overview-4.jpg";
 import karigorHistory1 from "../Assets/homePage/overview-5.jpg";

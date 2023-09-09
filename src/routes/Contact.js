@@ -1,7 +1,7 @@
 import Navbar from "../components/NavbarItems/Navbar";
 import Footer from "../components/Footer/Footer";
 import ContactForm from "../components/ContactUs/contactForm";
-import contactCoverPic from "../components/Assets/contactCoverPic.jpg";
+import contactCoverPic from "../components/Assets/ContactUsPage/contactUsCoverPic.jpg";
 import HeroOther from "../components/HeroSection/HeroOther";
 
 function Contact() {

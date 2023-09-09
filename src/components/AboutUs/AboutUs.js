@@ -1,14 +1,46 @@
 import "./AboutUsStyles.css";
 import karigorVision from "../Assets/Karigor-8.jpg";
-import karigorObjectives from "../Assets/Karigor-9.jpg";
-import karigorMissionA from "../Assets/homePage/overview-6.png";
-import karigorMissionB from "../Assets/homePage/overview-7.png";
-import karigorMissionC from "../Assets/homePage/overview-8.png";
-import karigorMissionD from "../Assets/homePage/overview-9.png";
-import karigorMissionE from "../Assets/homePage/overview-10.png";
-import karigorMissionF from "../Assets/homePage/overview-11.png";
-import karigorMissionG from "../Assets/homePage/overview-12.png";
-import karigorMissionH from "../Assets/homePage/overview-13.png";
+import karigorObjectives from "../Assets/aboutPage/karigorObjective.jpg";
+import CEO_Karigor from "../Assets/aboutPage/AdultMembers/TahmidaZaman.jpg";
+import MD_Karigor from "../Assets/aboutPage/AdultMembers/MofazzalHaqueRony.jpg";
+import COO_Karigor from "../Assets/aboutPage/AdultMembers/AnikDev.jpg";
+import CFTO_Karigor from "../Assets/aboutPage/AdultMembers/MirzaAbdulAwal.jpg";
+import SrDir_Karigor_1 from "../Assets/aboutPage/AdultMembers/RameshKunda.jpg";
+import SrDir_Programs_Karigor from "../Assets/aboutPage/AdultMembers/JAlamTipu.jpg";
+import Dir_Prog_Con_Karigor from "../Assets/aboutPage/AdultMembers/DevjyotiSen.jpg";
+import Dir_Karigor_1 from "../Assets/aboutPage/AdultMembers/Shaikh.jpg";
+import Dir_Karigor_2 from "../Assets/aboutPage/AdultMembers/RashedKalam.jpg";
+import Dir_Karigor_4 from "../Assets/aboutPage/AdultMembers/NadiraAkter.jpg";
+import Dir_Karigor_5 from "../Assets/aboutPage/AdultMembers/AbdullahRipon.jpg";
+import Exe_Dir_Karigor_Cultural_1 from "../Assets/aboutPage/AdultMembers/RozinaKhan.jpg";
+import Exe_Dir_Karigor_Cultural_2 from "../Assets/aboutPage/AdultMembers/NandiniBhowmik.jpg";
+import Exe_Dir_Karigor_Cultural_3 from "../Assets/aboutPage/AdultMembers/PavitraJaswal.jpg";
+import Exe_Dir_Karigor_Cultural_4 from "../Assets/aboutPage/AdultMembers/IffathAhnaf.jpg";
+import Member_Karigor_Cultural_1 from "../Assets/aboutPage/AdultMembers/DevjaneeSen.jpg";
+import Member_Karigor_Cultural_2 from "../Assets/aboutPage/AdultMembers/LiraRahman.jpg";
+import Member_Karigor_Cultural_3 from "../Assets/aboutPage/AdultMembers/MdRocky.jpg";
+import Member_Karigor_Cultural_4 from "../Assets/aboutPage/AdultMembers/Mim.jpg";
+import Member_Karigor_Cultural_5 from "../Assets/aboutPage/AdultMembers/SharifTuhin.jpg";
+import Member_Karigor_Cultural_6 from "../Assets/aboutPage/AdultMembers/AyashaPutul.jpg";
+import Child_Member_Karigor_1 from "../Assets/aboutPage/AdultMembers/TahmidaZaman.jpg";
+import Child_Member_Karigor_2 from "../Assets/aboutPage/AdultMembers/TahmidaZaman.jpg";
+import Child_Member_Karigor_3 from "../Assets/aboutPage/ChildMembers/MunibaTahlil.jpg";
+import Child_Member_Karigor_4 from "../Assets/aboutPage/ChildMembers/ManhaTahbil.jpg";
+import Child_Member_Karigor_5 from "../Assets/aboutPage/AdultMembers/NadiraAkter.jpg";
+import Child_Member_Karigor_6 from "../Assets/aboutPage/AdultMembers/NadiraAkter.jpg";
+import Child_Member_Karigor_7 from "../Assets/aboutPage/ChildMembers/RaeesaUddin.jpg";
+import Child_Member_Karigor_8 from "../Assets/aboutPage/AdultMembers/Mim.jpg";
+import Child_Member_Karigor_9 from "../Assets/aboutPage/AdultMembers/MdRocky.jpg";
+import Child_Member_Karigor_10 from "../Assets/aboutPage/AdultMembers/Mim.jpg";
+import Adviser_Karigor_1 from "../Assets/aboutPage/Advisors/AtiqurRahman.jpg";
+import Adviser_Karigor_2 from "../Assets/aboutPage/Advisors/JunaidAkter.jpg";
+import Adviser_Karigor_3 from "../Assets/aboutPage/Advisors/TamannaAhmed.jpg";
+import Adviser_Karigor_4 from "../Assets/aboutPage/Advisors/EhsanulKarim.jpg";
+import Adviser_Karigor_5 from "../Assets/aboutPage/Advisors/MulsaryKhanum.jpg";
+import Adviser_Karigor_6 from "../Assets/aboutPage/Advisors/SultanSalahuddinAhmed.jpg";
+import Adviser_Karigor_7 from "../Assets/aboutPage/Advisors/ArcPrince.jpg";
+import Adviser_Karigor_8 from "../Assets/aboutPage/Advisors/KeyaRozario.jpg";
+
 function AboutUs() {
   return (
     <div className="about-container">
@@ -65,6 +97,319 @@ function AboutUs() {
         </div>
         <div className="objective-image">
           <img alt="img" src={karigorObjectives} />
+        </div>
+      </div>
+
+      <div>
+        <h1 className="members-heading">Karigor Family</h1>
+        <p className="members-heading-subTitle">
+          Ambassadors of Bangladeshi Culture in South Florida
+        </p>
+      </div>
+      <div className="kp-members-heading-gallery">
+        <h4>Karigor Members</h4>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={CEO_Karigor} alt="member1" />
+          </div>
+          <h3>Tahmida Zaman Anis</h3>
+          <p>Chief Executive Officer</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={MD_Karigor} alt="member1" />
+          </div>
+          <h3>Mofazzol Hoque Rony</h3>
+          <p>Managing Director</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={COO_Karigor} alt="member1" />
+          </div>
+          <h3>Debashis Sarker Anik</h3>
+          <p>Chief Operation Officer</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={CFTO_Karigor} alt="member1" />
+          </div>
+          <h3>Mirza Abdul Awal</h3>
+          <p>Chief Finance & Technology Officer</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={SrDir_Karigor_1} alt="member1" />
+          </div>
+          <h3>Ramesh Kunda</h3>
+          <p>Senior Director</p>
+        </div>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={SrDir_Programs_Karigor} alt="member1" />
+          </div>
+          <h3>Mohammed Jahangir Alam Tipu</h3>
+          <p>Senior Director - Programs</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Dir_Prog_Con_Karigor} alt="member1" />
+          </div>
+          <h3>Devjyoti Sen</h3>
+          <p>Director - Program Control</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Dir_Karigor_1} alt="member1" />
+          </div>
+          <h3>Shaik Omar Abdullah</h3>
+          <p>Director</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Dir_Karigor_2} alt="member1" />
+          </div>
+          <h3>Rashed Kalam</h3>
+          <p>Director</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Dir_Karigor_4} alt="member1" />
+          </div>
+          <h3>Nadira Akter</h3>
+          <p>Director</p>
+        </div>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Dir_Karigor_5} alt="member1" />
+          </div>
+          <h3>Abdullah Ripon</h3>
+          <p>Director</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Exe_Dir_Karigor_Cultural_1} alt="member1" />
+          </div>
+          <h3>Rozina Karim Khan</h3>
+          <p>Executive Director - Cultural</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Exe_Dir_Karigor_Cultural_2} alt="member1" />
+          </div>
+          <h3>Nandini Bhowmik - Cultural & Finance</h3>
+          <p>Executive Director</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Exe_Dir_Karigor_Cultural_3} alt="member1" />
+          </div>
+          <h3>Pavitra Jaswal Sen</h3>
+          <p>Executive Director</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Exe_Dir_Karigor_Cultural_4} alt="member1" />
+          </div>
+          <h3>Iffat Ahnuf Lucky</h3>
+          <p>Executive Director</p>
+        </div>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_1} alt="member1" />
+          </div>
+          <h3>Devjanee Sen</h3>
+          <p>Executive Director</p>
+        </div>
+
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_3} alt="member1" />
+          </div>
+          <h3>Mr Rocky</h3>
+          <p>Executive Director</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_4} alt="member1" />
+          </div>
+          <h3>Sanjida Mim</h3>
+          <p>Executive Director</p>
+        </div>
+      </div>
+      <div className="kp-members-heading-gallery">
+        <h4>Members</h4>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_2} alt="member1" />
+          </div>
+          <h3>Lira Rahman</h3>
+          <p>Member</p>
+        </div>
+
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_5} alt="member1" />
+          </div>
+          <h3>Sharif Tuhin</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_6} alt="member1" />
+          </div>
+          <h3>Ayasha Putul</h3>
+          <p>Member</p>
+        </div>
+      </div>
+
+      <div className="kp-members-heading-gallery">
+        <h4>Youth Members</h4>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_1} alt="member1" />
+          </div>
+          <h3>Joeeta Anis</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_2} alt="member1" />
+          </div>
+          <h3>Adreev Anis</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_3} alt="member1" />
+          </div>
+          <h3>Muniba Tahlil</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_4} alt="member1" />
+          </div>
+          <h3>Manha Tahlil</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_5} alt="member1" />
+          </div>
+          <h3>Raju Bhai Son</h3>
+          <p>Member</p>
+        </div>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_6} alt="member1" />
+          </div>
+          <h3>Raju Bhai Daughter</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_7} alt="member1" />
+          </div>
+          <h3>Raeesa Uddin</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_8} alt="member1" />
+          </div>
+          <h3>Dr Ehsan Daughter</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_9} alt="member1" />
+          </div>
+          <h3>Rajib Son</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_10} alt="member1" />
+          </div>
+          <h3>Rajib's Daughter</h3>
+          <p>Member</p>
+        </div>
+      </div>
+      <div className="kp-members-heading-gallery">
+        <h4>Respected Advisers</h4>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Adviser_Karigor_1} alt="member1" />
+          </div>
+          <h3>Mr. Atiqur Rahman</h3>
+          <p>Advisor</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Adviser_Karigor_2} alt="member1" />
+          </div>
+          <h3>Mr. Junaid Akter</h3>
+          <p>Adviser</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Adviser_Karigor_3} alt="member1" />
+          </div>
+          <h3>Tamanna Ahmed</h3>
+          <p>Adviser</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Adviser_Karigor_4} alt="member1" />
+          </div>
+          <h3>Dr Ehsanul Karim, MD</h3>
+          <p>Adviser</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Adviser_Karigor_5} alt="member1" />
+          </div>
+          <h3>Mulsary Khanum</h3>
+          <p>Adviser</p>
+        </div>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Adviser_Karigor_6} alt="member1" />
+          </div>
+          <h3>Dr Sultan Salahusddin Ahmed, MD</h3>
+          <p>Adviser</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Adviser_Karigor_7} alt="member1" />
+          </div>
+          <h3>Dr. Abdur Rob Khan Prince, MD</h3>
+          <p>Adviser</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Adviser_Karigor_8} alt="member1" />
+          </div>
+          <h3>Keya Rozario</h3>
+          <p>Adviser</p>
         </div>
       </div>
     </div>

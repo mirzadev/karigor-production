@@ -1,6 +1,6 @@
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/NavbarItems/Navbar";
-import boishakhCoverPic from "../components/Assets/contactCoverPic.jpg";
+import boishakhCoverPic from "../components/Assets/kpCulture/KpCultureCoverPic.jpg";
 import CulturalActivities from "../components/EventCulturalActivities/CulturalActivities";
 import HeroOther from "../components/HeroSection/HeroOther";
 

@@ -1,6 +1,6 @@
 import Navbar from "../components/NavbarItems/Navbar";
 import Footer from "../components/Footer/Footer";
-import eventCoverPic from "../components/Assets/eventCoverPic.jpg";
+import eventCoverPic from "../components/Assets/eventBoishakh/eventCoverPic.jpg";
 import HomeEvent from "../components/HomeEvents/HomeEvent";
 import KarigorNews from "../components/EventKpNews/KarigorNews";
 import CulturalActivities from "../components/EventCulturalActivities/CulturalActivities";

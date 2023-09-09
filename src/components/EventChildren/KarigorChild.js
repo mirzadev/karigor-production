@@ -16,14 +16,14 @@ import childrenGallery1 from "../Assets/Children/children-1.jpg";
 import childrenGallery2 from "../Assets/Children/children-2.jpg";
 import childrenGallery3 from "../Assets/Children/children-3.jpg";
 import childrenGallery4 from "../Assets/Children/children-4.jpg";
-import childrenGallery5 from "../Assets/eventBoishakh/Adult-2019/adult-2019-Performance-1.jpg";
-import childrenGallery6 from "../Assets/eventBoishakh/Adult-2019/adult-2019-Performance-2.jpg";
-import childrenGallery7 from "../Assets/eventBoishakh/Adult-2019/adult-2019-Performance-3.jpg";
-import childrenGallery8 from "../Assets/eventBoishakh/Adult-2019/adult-2019-Performance-4.jpg";
-import childrenGallery9 from "../Assets/eventBoishakh/Adult-2019/audience-2019-1.jpg";
-import childrenGallery10 from "../Assets/eventBoishakh/Adult-2019/audience-2019-2.jpg";
-import childrenGallery11 from "../Assets/eventBoishakh/Adult-2019/audience-2019-3.jpg";
-import childrenGallery12 from "../Assets/eventBoishakh/Adult-2019/audience-2019-4.jpg";
+import childrenGallery5 from "../Assets/Children/children-5.jpg";
+import childrenGallery6 from "../Assets/Children/children-6.jpg";
+import childrenGallery7 from "../Assets/Children/children-7.jpg";
+import childrenGallery8 from "../Assets/Children/children-8.jpg";
+import childrenGallery9 from "../Assets/Children/children-9.jpg";
+import childrenGallery10 from "../Assets/Children/children-10.jpg";
+import childrenGallery11 from "../Assets/Children/children-11.jpg";
+import childrenGallery12 from "../Assets/Children/children-12.jpg";
 
 function KarigorChild() {
   return (
@@ -85,16 +85,16 @@ function KarigorChild() {
           <img alt="child-image" src={childrenGallery4} />
         </div>
         <div className="children-event-gallery">
-          <img alt="children-image" src={childrenGallery5} />
-          <img alt="children-image" src={childrenGallery6} />
-          <img alt="children-image" src={childrenGallery7} />
-          <img alt="children-image" src={childrenGallery8} />
+          <img alt="child-image" src={childrenGallery5} />
+          <img alt="child-image" src={childrenGallery6} />
+          <img alt="child-image" src={childrenGallery7} />
+          <img alt="child-image" src={childrenGallery8} />
         </div>
         <div className="children-event-gallery">
-          <img alt="children-image" src={childrenGallery9} />
-          <img alt="children-image" src={childrenGallery10} />
-          <img alt="children-image" src={childrenGallery11} />
-          <img alt="children-image" src={childrenGallery12} />
+          <img alt="child-image" src={childrenGallery9} />
+          <img alt="child-image" src={childrenGallery10} />
+          <img alt="child-image" src={childrenGallery11} />
+          <img alt="child-image" src={childrenGallery12} />
         </div>
         <div className="children-des-heading-gallery">
           <h4>Music Videos and Stage Shows</h4>

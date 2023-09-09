@@ -12,18 +12,18 @@ import culturalEpi9 from "../Assets/kpCulture/kpCultureEpic9.jpg";
 import culturalEpi10 from "../Assets/kpCulture/kpCultureEpic10.jpg";
 import culturalEpi11 from "../Assets/kpCulture/kpCultureEpic11.jpg";
 import culturalEpi12 from "../Assets/kpCulture/kpCultureEpic12.jpg";
-import culturalGallery1 from "../Assets/Children/children-1.jpg";
-import culturalGallery2 from "../Assets/Children/children-2.jpg";
-import culturalGallery3 from "../Assets/Children/children-3.jpg";
-import culturalGallery4 from "../Assets/Children/children-4.jpg";
-import culturalGallery5 from "../Assets/eventBoishakh/Adult-2019/adult-2019-Performance-1.jpg";
-import culturalGallery6 from "../Assets/eventBoishakh/Adult-2019/adult-2019-Performance-2.jpg";
-import culturalGallery7 from "../Assets/eventBoishakh/Adult-2019/adult-2019-Performance-3.jpg";
-import culturalGallery8 from "../Assets/eventBoishakh/Adult-2019/adult-2019-Performance-4.jpg";
-import culturalGallery9 from "../Assets/eventBoishakh/Adult-2019/audience-2019-1.jpg";
-import culturalGallery10 from "../Assets/eventBoishakh/Adult-2019/audience-2019-2.jpg";
-import culturalGallery11 from "../Assets/eventBoishakh/Adult-2019/audience-2019-3.jpg";
-import culturalGallery12 from "../Assets/eventBoishakh/Adult-2019/audience-2019-4.jpg";
+import culturalGallery1 from "../Assets/kpCulture/childrenGallery-1.jpg";
+import culturalGallery2 from "../Assets/kpCulture/childrenGallery-2.jpg";
+import culturalGallery3 from "../Assets/kpCulture/childrenGallery-3.jpg";
+import culturalGallery4 from "../Assets/kpCulture/childrenGallery-4.jpg";
+import culturalGallery5 from "../Assets/kpCulture/adultGallery-1.jpg";
+import culturalGallery6 from "../Assets/kpCulture/adultGallery-2.jpg";
+import culturalGallery7 from "../Assets/kpCulture/adultGallery-3.jpg";
+import culturalGallery8 from "../Assets/kpCulture/adultGallery-4.jpg";
+import culturalGallery9 from "../Assets/kpCulture/adultGallery-5.jpg";
+import culturalGallery10 from "../Assets/kpCulture/adultGallery-6.jpg";
+import culturalGallery11 from "../Assets/kpCulture/adultGallery-7.jpg";
+import culturalGallery12 from "../Assets/kpCulture/adultGallery-8.jpg";
 
 function CulturalActivities() {
   return (
