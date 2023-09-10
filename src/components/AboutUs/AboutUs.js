@@ -22,6 +22,8 @@ import Member_Karigor_Cultural_3 from "../Assets/aboutPage/AdultMembers/MdRocky.
 import Member_Karigor_Cultural_4 from "../Assets/aboutPage/AdultMembers/Mim.jpg";
 import Member_Karigor_Cultural_5 from "../Assets/aboutPage/AdultMembers/SharifTuhin.jpg";
 import Member_Karigor_Cultural_6 from "../Assets/aboutPage/AdultMembers/AyashaPutul.jpg";
+import Member_Karigor_Cultural_7 from "../Assets/aboutPage/AdultMembers/SaminKhan.jpg";
+import Member_Karigor_Cultural_8 from "../Assets/aboutPage/AdultMembers/ThaminaKarim.jpg";
 import Child_Member_Karigor_1 from "../Assets/aboutPage/AdultMembers/TahmidaZaman.jpg";
 import Child_Member_Karigor_2 from "../Assets/aboutPage/AdultMembers/TahmidaZaman.jpg";
 import Child_Member_Karigor_3 from "../Assets/aboutPage/ChildMembers/MunibaTahlil.jpg";
@@ -29,9 +31,9 @@ import Child_Member_Karigor_4 from "../Assets/aboutPage/ChildMembers/ManhaTahbil
 import Child_Member_Karigor_5 from "../Assets/aboutPage/AdultMembers/NadiraAkter.jpg";
 import Child_Member_Karigor_6 from "../Assets/aboutPage/AdultMembers/NadiraAkter.jpg";
 import Child_Member_Karigor_7 from "../Assets/aboutPage/ChildMembers/RaeesaUddin.jpg";
-import Child_Member_Karigor_8 from "../Assets/aboutPage/AdultMembers/Mim.jpg";
-import Child_Member_Karigor_9 from "../Assets/aboutPage/AdultMembers/MdRocky.jpg";
-import Child_Member_Karigor_10 from "../Assets/aboutPage/AdultMembers/Mim.jpg";
+import Child_Member_Karigor_8 from "../Assets/aboutPage/ChildMembers/AfraKarim.jpg";
+import Child_Member_Karigor_9 from "../Assets/aboutPage/ChildMembers/AskfanKhan.jpg";
+import Child_Member_Karigor_10 from "../Assets/aboutPage/ChildMembers/SalyoniAfraKhan.jpg";
 import Adviser_Karigor_1 from "../Assets/aboutPage/Advisors/AtiqurRahman.jpg";
 import Adviser_Karigor_2 from "../Assets/aboutPage/Advisors/JunaidAkter.jpg";
 import Adviser_Karigor_3 from "../Assets/aboutPage/Advisors/TamannaAhmed.jpg";
@@ -245,15 +247,22 @@ function AboutUs() {
         </div>
       </div>
       <div className="kp-members-heading-gallery">
-        <h4>Members</h4>
+        <h4>Family Gallery</h4>
       </div>
       <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_8} alt="member1" />
+          </div>
+          <h3>Thamina Karim</h3>
+          <p>Family</p>
+        </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Member_Karigor_Cultural_2} alt="member1" />
           </div>
           <h3>Lira Rahman</h3>
-          <p>Member</p>
+          <p>Family</p>
         </div>
 
         <div className="kp-members-area">
@@ -261,14 +270,21 @@ function AboutUs() {
             <img src={Member_Karigor_Cultural_5} alt="member1" />
           </div>
           <h3>Sharif Tuhin</h3>
-          <p>Member</p>
+          <p>Family</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Member_Karigor_Cultural_6} alt="member1" />
           </div>
           <h3>Ayasha Putul</h3>
-          <p>Member</p>
+          <p>Family</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_7} alt="member1" />
+          </div>
+          <h3>Ismat Samin</h3>
+          <p>Family</p>
         </div>
       </div>
 
@@ -331,21 +347,21 @@ function AboutUs() {
           <div className="kp-members-area-image">
             <img src={Child_Member_Karigor_8} alt="member1" />
           </div>
-          <h3>Dr Ehsan Daughter</h3>
+          <h3>Afra Karim</h3>
           <p>Member</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Child_Member_Karigor_9} alt="member1" />
           </div>
-          <h3>Rajib Son</h3>
+          <h3>Ashfan Khan</h3>
           <p>Member</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Child_Member_Karigor_10} alt="member1" />
           </div>
-          <h3>Rajib's Daughter</h3>
+          <h3>Saiyoni Afra Khan</h3>
           <p>Member</p>
         </div>
       </div>
