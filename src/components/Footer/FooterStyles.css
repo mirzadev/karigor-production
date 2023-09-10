@@ -27,6 +27,24 @@
   align-items: center;
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcomingEvents h1 {
+  color: whitesmoke;
+  font-size: 1.8rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.upcomingEvents:hover h1 {
+  color: rgb(148, 236, 15);
+  transform: scale(1.4);
+  margin-right: 5rem;
+}
+
 .bottom {
   padding-top: 2rem;
   display: flex;
@@ -194,6 +212,24 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .upcomingEvents {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+
+  .upcomingEvents h1 {
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+
+  .upcomingEvents:hover h1 {
+    transform: scale(1.2);
+    margin-right: 0;
   }
 
   #footer-header,

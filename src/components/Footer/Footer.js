@@ -32,6 +32,11 @@ const Footer = () => {
           </div>
           <p>A small Bangladesh in Florida, USA</p>
         </div>
+        <div className="upcomingEvents">
+          <a>
+            <h1>Karigor Upcoming Events</h1>
+          </a>
+        </div>
       </div>
 
       <div className="bottom">
