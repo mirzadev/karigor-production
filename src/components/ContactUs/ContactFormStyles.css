@@ -1,7 +1,12 @@
 .form-container {
   margin: 4rem 6rem;
 }
-
+#divResults {
+  background: rgb(204, 227, 236);
+  color: black;
+  border-radius: 1rem;
+  width: 30rem;
+}
 .form-container h1 {
   color: navy;
   font-family: sans-serif;
@@ -28,6 +33,12 @@
   border: 1px solid #2a2a2a;
   font-family: sans-serif;
   color: black;
+}
+
+.form-items label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  align-content: start;
 }
 
 .form-items textarea {
@@ -66,6 +77,13 @@
 @media screen and (max-width: 850px) {
   .form-container {
     margin: 2rem 1rem;
+  }
+  #divResults {
+    float: none;
+    border-radius: 0.8rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
   }
 
   .form-container h1 {

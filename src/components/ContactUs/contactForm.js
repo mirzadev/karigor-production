@@ -1,19 +1,64 @@
 import "./ContactFormStyles.css";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import FaceBook from "../Assets/footerItem/Facebook.png";
 import Twiter from "../Assets/footerItem/Twiter.png";
 import YouTube from "../Assets/footerItem/YouTube.png";
+//import swal from "sweetalert";
 
-function contactForm() {
+function ContactForm() {
+  const form = useRef();
+  // To close the message after 20 second
+  const messageFadeout = () => {
+    setTimeout(() => {
+      document.getElementById("divResults").innerHTML = "";
+    }, 10000);
+  };
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_p774ll6",
+        "template_wmlimtk",
+        form.current,
+        "06t5He3Ms9p98XTn7"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          document.getElementById("divResults").innerHTML =
+            "Your message has been successfully sent to Karigor Production. Thanks for contacting Karigor.";
+          messageFadeout(); //executing fadeout
+        },
+        (error) => {
+          console.log(error.text);
+          document.getElementById("divResults").innerHTML =
+            "Sorry ! Your message could not be sent. Please try again later.";
+          messageFadeout();
+        }
+      );
+    e.target.reset();
+  };
+  const handleClick = () => {};
   return (
     <div className="form-container">
       <h1>Send Your Message to Karigor</h1>
       <div className="form-items">
-        <form>
-          <input placeholder="Name" />
-          <input placeholder="Email" />
-          <input placeholder="Subject" />
-          <textarea placeholder="Message" rows="4"></textarea>
-          <button>Send Message</button>
+        <form ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="user_name"
+            placeholder="Full Name"
+            required
+          />
+          <input type="email" name="user_email" placeholder="Email" required />
+          <input type="subject" name="subject" placeholder="Subject" />
+          <textarea name="message" placeholder="Message" rows="4"></textarea>
+
+          <button type="submit" className="btn" onClick={handleClick}>
+            Send Message
+          </button>
         </form>
         <div className="contact-sections">
           <section className="email-section">
@@ -86,9 +131,11 @@ function contactForm() {
               <img src={YouTube} alt="youtube" height="50" width="60" />
             </a>
           </section>
+          {/*  this is to display the success message  */}
+          <div id="divResults"></div>
         </div>
       </div>
     </div>
   );
 }
-export default contactForm;
+export default ContactForm;
