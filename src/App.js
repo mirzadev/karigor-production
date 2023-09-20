@@ -9,6 +9,7 @@ import Boishakh from "./routes/Boishakh";
 import EkCupCha from "./routes/EkCupCha";
 import KpCulture from "./routes/KpCulture";
 import KpNews from "./routes/KpNews";
+import UpcomingEvent from "./routes/UpcomingEvent";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/boishakh" element={<Boishakh />} />
         <Route path="/kpCulture" element={<KpCulture />} />
         <Route path="/kpNews" element={<KpNews />} />
+        <Route path="/upcoming" element={<UpcomingEvent />} />
       </Routes>
     </div>
   );
