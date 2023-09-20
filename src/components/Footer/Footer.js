@@ -33,7 +33,7 @@ const Footer = () => {
           <p>A small Bangladesh in Florida, USA</p>
         </div>
         <div className="upcomingEvents">
-          <a>
+          <a href="/upcoming">
             <h1>Karigor Upcoming Events</h1>
           </a>
         </div>

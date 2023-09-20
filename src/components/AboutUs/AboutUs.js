@@ -29,8 +29,8 @@ import Member_Karigor_Cultural_10 from "../Assets/aboutPage/AdultMembers/RumelSi
 import Member_Karigor_Cultural_11 from "../Assets/aboutPage/AdultMembers/RobinBari.jpg";
 import Member_Karigor_Cultural_12 from "../Assets/aboutPage/AdultMembers/SamiaRahmanImtiazBabu.jpg";
 import Member_Karigor_Cultural_13 from "../Assets/aboutPage/AdultMembers/SoniaRanjit.jpg";
-import Child_Member_Karigor_1 from "../Assets/aboutPage/AdultMembers/TahmidaZaman.jpg";
-import Child_Member_Karigor_2 from "../Assets/aboutPage/AdultMembers/TahmidaZaman.jpg";
+import Child_Member_Karigor_1 from "../Assets/aboutPage/ChildMembers/JoyeetaAnis.jpg";
+import Child_Member_Karigor_2 from "../Assets/aboutPage/ChildMembers/AdrivAnis.jpg";
 import Child_Member_Karigor_3 from "../Assets/aboutPage/ChildMembers/MunibaTahlil.jpg";
 import Child_Member_Karigor_4 from "../Assets/aboutPage/ChildMembers/ManhaTahbil.jpg";
 import Child_Member_Karigor_5 from "../Assets/aboutPage/AdultMembers/NadiraAkter.jpg";
@@ -44,6 +44,8 @@ import Child_Member_Karigor_12 from "../Assets/aboutPage/ChildMembers/RabiaAnish
 import Child_Member_Karigor_13 from "../Assets/aboutPage/ChildMembers/CyrusBari.jpg";
 import Child_Member_Karigor_14 from "../Assets/aboutPage/ChildMembers/CenicaBari.jpg";
 import Child_Member_Karigor_15 from "../Assets/aboutPage/ChildMembers/ShufratTahia.jpg";
+import Child_Member_Karigor_16 from "../Assets/aboutPage/ChildMembers/SreyashDey.jpg";
+import Child_Member_Karigor_17 from "../Assets/aboutPage/ChildMembers/ShourinDey.jpg";
 import Adviser_Karigor_1 from "../Assets/aboutPage/Advisors/AtiqurRahman.jpg";
 import Adviser_Karigor_2 from "../Assets/aboutPage/Advisors/JunaidAkter.jpg";
 import Adviser_Karigor_3 from "../Assets/aboutPage/Advisors/TamannaAhmed.jpg";
@@ -447,6 +449,22 @@ function AboutUs() {
             <img src={Child_Member_Karigor_15} alt="member1" />
           </div>
           <h3>Shufrat Tahia</h3>
+          <p>Member</p>
+        </div>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_16} alt="member1" />
+          </div>
+          <h3>Sreyash Dey</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Child_Member_Karigor_17} alt="member1" />
+          </div>
+          <h3>Shourin</h3>
           <p>Member</p>
         </div>
       </div>

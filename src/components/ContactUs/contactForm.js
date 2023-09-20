@@ -40,7 +40,7 @@ function ContactForm() {
       );
     e.target.reset();
   };
-  const handleClick = () => {};
+
   return (
     <div className="form-container">
       <h1>Send Your Message to Karigor</h1>
@@ -56,7 +56,7 @@ function ContactForm() {
           <input type="subject" name="subject" placeholder="Subject" />
           <textarea name="message" placeholder="Message" rows="4"></textarea>
 
-          <button type="submit" className="btn" onClick={handleClick}>
+          <button type="submit" className="btn">
             Send Message
           </button>
         </form>
