@@ -30,15 +30,16 @@ import Member_Karigor_Cultural_11 from "../Assets/aboutPage/AdultMembers/RobinBa
 import Member_Karigor_Cultural_12 from "../Assets/aboutPage/AdultMembers/SamiaRahmanImtiazBabu.jpg";
 import Member_Karigor_Cultural_13 from "../Assets/aboutPage/AdultMembers/SoniaRanjit.jpg";
 import Member_Karigor_Cultural_14 from "../Assets/aboutPage/AdultMembers/AshadulHoque.jpg";
-// import Member_Karigor_Cultural_15 from "../Assets/aboutPage/AdultMembers/SoniaRanjit.jpg";
+import Member_Karigor_Cultural_15 from "../Assets/aboutPage/AdultMembers/SakibShourav.jpg";
 import Member_Karigor_Cultural_16 from "../Assets/aboutPage/AdultMembers/SharifMajumder.jpg";
 import Member_Karigor_Cultural_17 from "../Assets/aboutPage/AdultMembers/Sonda.jpg";
+import Member_Karigor_Cultural_18 from "../Assets/aboutPage/AdultMembers/SajidulKhan.jpg";
 import Child_Member_Karigor_1 from "../Assets/aboutPage/ChildMembers/JoyeetaAnis.jpg";
 import Child_Member_Karigor_2 from "../Assets/aboutPage/ChildMembers/AdrivAnis.jpg";
 import Child_Member_Karigor_3 from "../Assets/aboutPage/ChildMembers/MunibaTahlil.jpg";
 import Child_Member_Karigor_4 from "../Assets/aboutPage/ChildMembers/ManhaTahbil.jpg";
-import Child_Member_Karigor_5 from "../Assets/aboutPage/ChildMembers/rajuSon.jpg";
-import Child_Member_Karigor_6 from "../Assets/aboutPage/ChildMembers/rajuDaughter.jpg";
+import Child_Member_Karigor_5 from "../Assets/aboutPage/ChildMembers/MahinIslam.jpg";
+import Child_Member_Karigor_6 from "../Assets/aboutPage/ChildMembers/MounotaIslam.jpg";
 import Child_Member_Karigor_7 from "../Assets/aboutPage/ChildMembers/RaeesaUddin.jpg";
 import Child_Member_Karigor_8 from "../Assets/aboutPage/ChildMembers/AfraKarim.jpg";
 import Child_Member_Karigor_9 from "../Assets/aboutPage/ChildMembers/AskfanKhan.jpg";
@@ -349,13 +350,13 @@ function AboutUs() {
           <h3>Ashadul Haque & Mohsina Haque</h3>
           <p>Family</p>
         </div>
-        {/* <div className="kp-members-area">
+        <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Member_Karigor_Cultural_15} alt="member1" />
           </div>
-          <h3>Shakib </h3>
+          <h3>Sakib M Shourav </h3>
           <p>Family</p>
-        </div> */}
+        </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Member_Karigor_Cultural_16} alt="member1" />
@@ -367,7 +368,14 @@ function AboutUs() {
           <div className="kp-members-area-image">
             <img src={Member_Karigor_Cultural_17} alt="member1" />
           </div>
-          <h3>Sonda</h3>
+          <h3>Shanda Murshid</h3>
+          <p>Family</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={Member_Karigor_Cultural_18} alt="member1" />
+          </div>
+          <h3>Sajidul Islam Khan (Shawon)</h3>
           <p>Family</p>
         </div>
       </div>

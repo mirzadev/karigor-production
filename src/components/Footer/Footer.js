@@ -9,6 +9,7 @@ import Email from "../Assets/footerItem/Email_Logo.png";
 import DemandDistr from "../Assets/footerItem/DD-Logo1.png";
 import MiamiKDistr from "../Assets/footerItem/miami-k-distributions.png";
 import NepaWholesale from "../Assets/footerItem/nepa-wholesale.png";
+import ManhaMunibaWholesale from "../Assets/footerItem/Manha_Muniba_Wholesale_Logo.png";
 import pspTechLogo from "../Assets/footerItem/pspTech-logo.png";
 
 const Footer = () => {
@@ -168,6 +169,19 @@ const Footer = () => {
               rel="noreferrer"
             >
               <p>NEPA Wholesale</p>
+            </a>
+          </div>
+          <div className="sponsors-items">
+            <a href="#" target="_blank" rel="noreferrer">
+              <img
+                src={ManhaMunibaWholesale}
+                alt="email"
+                height="45"
+                width="50"
+              />
+            </a>
+            <a href="#" target="_blank" rel="noreferrer">
+              <p className="mm-wholesale">Manha Muniba Wholesale</p>
             </a>
           </div>
         </div>
