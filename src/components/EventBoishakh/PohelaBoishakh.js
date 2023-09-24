@@ -3,7 +3,7 @@ import boishakhHistory_1 from "../Assets/eventBoishakh/boishakhHistory1.jpg";
 import boishakhHistory_2 from "../Assets/eventBoishakh/boishakhHistory2.jpg";
 import jatrapalaSalt from "../Assets/eventBoishakh/TheatreSalt.png";
 import bederMayaJosna from "../Assets/eventBoishakh/Jatra-BederMaya-2022.jpg";
-import jatrapalaRupban from "../Assets/eventBoishakh/Jatra-Rupban-2023.jpg";
+import jatrapalaRupban from "../Assets/eventBoishakh/boishakh-2023/Jatra-Rupban.jpg";
 import children1 from "../Assets/eventBoishakh/boishakh-2019/child-2019-1.jpg";
 import children2 from "../Assets/eventBoishakh/boishakh-2019/child-2019-2.jpg";
 import children3 from "../Assets/eventBoishakh/boishakh-2019/child-2019-3.jpg";
@@ -179,7 +179,7 @@ function PohelaBoishakh() {
                   Main characters in the theatre were Mofazzol Hoque Rony,
                   nandini Bhowmik, Abdullah Ripon, Iffat Ahnaf Lucky, Arnob
                   Khan, Debjani Sen, Sevjyoti Sen and many others. The theatre
-                  was directed by Chitra Sultana.
+                  was produced by Karigor Production.
                 </p>
               </div>
               <div>
@@ -281,8 +281,8 @@ function PohelaBoishakh() {
                   Pollab Majumder, Mofazzol Hoque Rony, Nandini Bhowmik, Anik
                   Dev, Kakoli Chowdury, Pavitra Sen, Sharif Tuhin, Sonia Dey,
                   Khurshid Shumi, Nurul Amin Dollar, Ramesh Kundo, Munira Memi
-                  (Guest actress) and many others. The theatre was directed by
-                  Chitra Sultana.
+                  (Guest actress) and many others. The theatre was produced by
+                  Karigor Production.
                 </p>
               </div>
               <div>

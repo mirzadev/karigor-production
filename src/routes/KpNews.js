@@ -4,7 +4,7 @@ import boishakhCoverPic from "../components/Assets/kpNews/kpNewsCoverPic.jpg";
 import KarigorNews from "../components/EventKpNews/KarigorNews";
 import HeroOther from "../components/HeroSection/HeroOther";
 
-function KpCulture() {
+function KpNews() {
   return (
     <>
       <Navbar />
@@ -20,4 +20,4 @@ function KpCulture() {
   );
 }
 
-export default KpCulture;
+export default KpNews;
