@@ -60,7 +60,7 @@ body {
   display: none;
 }
 
-.signup {
+.membership {
   padding: 0.5rem 1rem;
   margin-right: 1rem;
   white-space: nowrap;
@@ -74,7 +74,7 @@ body {
   transition: 0.2s ease-in-out;
 }
 
-.signup:hover {
+.membership:hover {
   background-color: rgb(72, 172, 172);
   color: rgb(228, 147, 42);
 }
@@ -134,7 +134,7 @@ body {
     background: rgb(89, 149, 233);
     transition: none;
   }
-  .signup {
+  .membership {
     display: none;
   }
   .nav-link-mobile {

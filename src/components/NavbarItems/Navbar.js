@@ -60,7 +60,11 @@ function Navbar() {
               </li>
             );
           })}
-          <button className="signup">Sign Up</button>
+          <a href="/members">
+            <button className="membership" href="/members">
+              Members
+            </button>
+          </a>
         </ul>
       </nav>
     </div>

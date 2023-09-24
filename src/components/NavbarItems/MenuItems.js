@@ -32,8 +32,8 @@ export const MenuItems = [
   },
 
   {
-    title: "Sign In",
-    url: "/signin",
+    title: "Members",
+    url: "/members",
     CName: "nav-link-mobile",
   },
 ];
@@ -61,6 +61,12 @@ export const EventDropDownMenu = [
     id: 4,
     title: "Karigor News",
     url: "/kpNews",
+    CName: "dropdown-links",
+  },
+  {
+    id: 5,
+    title: "Upcoming Events",
+    url: "/upcoming",
     CName: "dropdown-links",
   },
 ];

@@ -33,7 +33,7 @@ const Footer = () => {
           <p>A small Bangladesh in Florida, USA</p>
         </div>
         <div className="upcomingEvents">
-          <a href="/upcoming">
+          <a className="upcoming-link" href="/upcoming">
             <h1>Karigor Upcoming Events</h1>
           </a>
         </div>
@@ -43,10 +43,14 @@ const Footer = () => {
         <div className="social-media-div">
           <h4>Social Media</h4>
           <div className="social-media">
-            <a href="https://www.facebook.com/kptv24" target="_blank">
+            <a
+              href="https://www.facebook.com/kptv24"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={FaceBook} alt="facebook" height="40" width="40" />
             </a>
-            <a href="/" target="_blank">
+            <a href="/" target="_blank" rel="noreferrer">
               <img
                 className="twiter"
                 src={Twiter}
@@ -58,6 +62,7 @@ const Footer = () => {
             <a
               href="https://www.youtube.com/@karigor_production"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={YouTube} alt="youtube" height="40" width="50" />
             </a>
@@ -77,6 +82,7 @@ const Footer = () => {
               <a href="/ekCupCha">Ek Cup Cha</a>
               <a href="/kpCulture">Cultural Events</a>
               <a href="/kpNews">Karigor News</a>
+              <a href="/upcoming">Karigor Upcoming Events</a>
             </div>
           </div>
         </div>
@@ -89,6 +95,7 @@ const Footer = () => {
             <a
               href="https://www.google.com/maps/@26.6229841,-80.1158108,3a,75y,274.5h,90t/data=!3m6!1e1!3m4!1sdGWJyKVny4bUXrWa2BcDRw!2e0!7i16384!8i8192?entry=ttu"
               target="_blank"
+              rel="noreferrer"
             >
               <div>
                 <p className="location-address">3726 Nyack Lane</p>
@@ -116,26 +123,50 @@ const Footer = () => {
         <div className="karigor-sponsors">
           <h4>Our Proud Sponsors</h4>
           <div className="sponsors-items">
-            <a href="https://demanddistribution.com/" target="_blank">
+            <a
+              href="https://demanddistribution.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={DemandDistr} alt="demand" height="32" width="35" />
             </a>
-            <a href="https://demanddistribution.com/" target="_blank">
+            <a
+              href="https://demanddistribution.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p>Demand Distributions</p>
             </a>
           </div>
           <div className="sponsors-items">
-            <a href="https://miamikdistribution.com/" target="_blank">
+            <a
+              href="https://miamikdistribution.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={MiamiKDistr} alt="miamiK" height="35" width="130" />
             </a>
-            <a href="https://miamikdistribution.com/" target="_blank">
+            <a
+              href="https://miamikdistribution.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p>Miami K Distributions</p>
             </a>
           </div>
           <div className="sponsors-items">
-            <a href="https://nepa2wholesale.com/" target="_blank">
+            <a
+              href="https://nepa2wholesale.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={NepaWholesale} alt="email" height="35" width="130" />
             </a>
-            <a href="https://nepa2wholesale.com/" target="_blank">
+            <a
+              href="https://nepa2wholesale.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p>NEPA Wholesale</p>
             </a>
           </div>
@@ -145,10 +176,10 @@ const Footer = () => {
 
       <div className="copyright-note">
         <p>Copyright @</p>
-        <a href="https://psptech.net/" target="_blank">
+        <a href="https://psptech.net/" target="_blank" rel="noreferrer">
           <img src={pspTechLogo} alt="psptech" height="35" width="35" />
         </a>
-        <a href="https://psptech.net/" target="_blank">
+        <a href="https://psptech.net/" target="_blank" rel="noreferrer">
           <p>PSP Technology Inc</p>
         </a>
       </div>

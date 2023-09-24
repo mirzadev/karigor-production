@@ -10,6 +10,7 @@ import EkCupCha from "./routes/EkCupCha";
 import KpCulture from "./routes/KpCulture";
 import KpNews from "./routes/KpNews";
 import UpcomingEvent from "./routes/UpcomingEvent";
+import MembersCorner from "./routes/MembersCorner";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/kpCulture" element={<KpCulture />} />
         <Route path="/kpNews" element={<KpNews />} />
         <Route path="/upcoming" element={<UpcomingEvent />} />
+        <Route path="/members" element={<MembersCorner />} />
       </Routes>
     </div>
   );

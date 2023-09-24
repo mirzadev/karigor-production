@@ -32,6 +32,10 @@
   justify-content: space-between;
 }
 
+.upcoming-link {
+  text-decoration: none;
+}
+
 .upcomingEvents h1 {
   color: whitesmoke;
   font-size: 1.8rem;
