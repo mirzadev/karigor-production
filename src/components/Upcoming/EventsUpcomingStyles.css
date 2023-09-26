@@ -1,5 +1,5 @@
 .upcoming-container {
-  padding: 2rem;
+  padding: 2rem 6rem;
   color: navy;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .upcoming-event img {
-  width: 100%;
+  width: 70%;
 }
 
 @media screen and (max-width: 850px) {
