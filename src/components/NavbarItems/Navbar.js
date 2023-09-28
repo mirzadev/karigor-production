@@ -60,11 +60,11 @@ function Navbar() {
               </li>
             );
           })}
-          <a href="/members">
+          <Link to="/members">
             <button className="membership" href="/members">
               Members
             </button>
-          </a>
+          </Link>
         </ul>
       </nav>
     </div>
