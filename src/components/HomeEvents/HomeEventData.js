@@ -1,4 +1,5 @@
 import "./HomeEventStyle.css";
+import { Link } from "react-router-dom";
 
 function HomeEventData(props) {
   const handleClick = () => {
@@ -11,11 +12,11 @@ function HomeEventData(props) {
       </div>
       <h2>{props.heading}</h2>
       <p>{props.text}</p>
-      <a href={props.url}>
+      <Link to={props.url}>
         <button onClick={handleClick} className="event-button">
           Event Details
         </button>
-      </a>
+      </Link>
     </div>
   );
 }
