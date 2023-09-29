@@ -1,6 +1,5 @@
 .upcoming-container {
-  padding: 2rem 6rem;
-  color: navy;
+  padding: 2rem 4rem;
 }
 
 .upcoming-container h1 {
@@ -22,18 +21,22 @@
 }
 
 .upcoming-event img {
-  width: 70%;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 850px) {
-  .upcoming-container h1 {
-    font-size: 1.75rem;
+  .upcoming-container {
+    padding: 1rem 1.5rem;
   }
-  .upcoming-container h2 {
+  .upcoming-container h1 {
     font-size: 1.5rem;
   }
+  .upcoming-container h2 {
+    font-size: 1.3rem;
+  }
   .upcoming-container h3 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
   .upcoming-container p {
     font-size: 1rem;
