@@ -5,7 +5,8 @@
   background: rgb(204, 227, 236);
   color: black;
   border-radius: 1rem;
-  width: 25rem;
+  width: 100%;
+  margin-top: 1rem;
 }
 .form-container h1 {
   color: navy;
@@ -79,20 +80,21 @@
     margin: 2rem 1rem;
   }
   #divResults {
+    background: none;
     float: none;
     border-radius: 0.8rem;
-    margin-top: -1rem;
+    color: rgb(159, 49, 187);
     margin-bottom: 1rem;
     padding: 0.3rem;
   }
 
   .form-container h1 {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .form-items form {
     padding-top: 2rem;
-    width: 90%;
+    width: 100%;
   }
   .form-items {
     flex-direction: column;
@@ -102,10 +104,18 @@
     font-size: 1rem;
   }
   .contact-sections {
+    margin: 1rem 1rem;
     font-size: 1rem;
+    display: 100%;
+    align-items: center;
+  }
+
+  .contact-sections section {
+    margin-bottom: 2rem;
+    align-content: center;
   }
 
   .social-section {
-    display: flex;
+    display: 100%;
   }
 }
