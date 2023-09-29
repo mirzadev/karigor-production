@@ -5,7 +5,6 @@ import FaceBook from "../Assets/footerItem/Facebook.png";
 import Twiter from "../Assets/footerItem/Twiter.png";
 import YouTube from "../Assets/footerItem/YouTube.png";
 
-
 function ContactForm() {
   const form = useRef();
   // To close the message after 20 second
@@ -59,7 +58,10 @@ function ContactForm() {
           <button type="submit" className="btn">
             Send Message
           </button>
+          {/*  this is to display the success message  */}
+          <div id="divResults"></div>
         </form>
+
         <div className="contact-sections">
           <section className="email-section">
             <div>
@@ -131,8 +133,6 @@ function ContactForm() {
               <img src={YouTube} alt="youtube" height="50" width="60" />
             </a>
           </section>
-          {/*  this is to display the success message  */}
-          <div id="divResults"></div>
         </div>
       </div>
     </div>
