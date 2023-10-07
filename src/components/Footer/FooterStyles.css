@@ -69,10 +69,11 @@
 
 .social-media {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .social-media-div h4 {
+  text-align: center;
   margin-bottom: 1rem;
 }
 
@@ -100,6 +101,29 @@
 
 .useful-links a:hover {
   color: greenyellow;
+}
+
+.anik_car_limo {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.anik_contact {
+  margin-left: 1rem;
+}
+
+.anik_contact p:hover {
+  color: greenyellow;
+}
+
+.web-address {
+  margin-top: -0.5rem;
+  font-weight: bold;
+}
+
+.anik_tel_number {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-contact-us h4 {
@@ -266,5 +290,23 @@
   .telephone-number,
   .email-address {
     font-size: 0.9rem;
+  }
+
+  .anik_tel_number,
+  .anik_email_address {
+    font-size: 0.9rem;
+  }
+
+  .anik_car_limo {
+    margin-top: 2.5rem;
+  }
+
+  .anik_contact {
+    margin-left: 0.5rem;
+  }
+
+  .anikLimo {
+    height: 4.3rem;
+    width: 5.3rem;
   }
 }
