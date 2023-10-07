@@ -2,6 +2,7 @@ import "./FooterStyles.css";
 import karigorLogo from "../Assets/karigor-logo.PNG";
 import FaceBook from "../Assets/footerItem/Facebook.png";
 import Twiter from "../Assets/footerItem/Twiter.png";
+import AnikLimo from "../Assets/footerItem/AnikLimoLogo.png";
 import YouTube from "../Assets/footerItem/YouTube.png";
 import Location from "../Assets/footerItem/Location_Symbol.png";
 import Telephone from "../Assets/footerItem/Telephone_Logo.png";
@@ -9,7 +10,7 @@ import Email from "../Assets/footerItem/Email_Logo.png";
 import DemandDistr from "../Assets/footerItem/DD-Logo1.png";
 import MiamiKDistr from "../Assets/footerItem/miami-k-distributions.png";
 import NepaWholesale from "../Assets/footerItem/nepa-wholesale.png";
-import ManhaMunibaWholesale from "../Assets/footerItem/Manha_Muniba_Wholesale_Logo.png";
+// import ManhaMunibaWholesale from "../Assets/footerItem/Manha_Muniba_Wholesale_Logo.png";
 import pspTechLogo from "../Assets/footerItem/pspTech-logo.png";
 import { Link } from "react-router-dom";
 
@@ -69,6 +70,42 @@ const Footer = () => {
               <img src={YouTube} alt="youtube" height="40" width="50" />
             </Link>
           </div>
+          <div className="anik_car_limo">
+            <div>
+              <Link
+                to="https://anikcarandlimo.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="anikLimo"
+                  src={AnikLimo}
+                  alt="limo"
+                  height="70"
+                  width="80"
+                />
+              </Link>
+            </div>
+            <div className="anik_contact">
+              <Link
+                to="https://anikcarandlimo.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="web-address">Anik Car & Limo</p>
+              </Link>
+              <a>
+                <p className="anik_tel_number">1(561) 846 9982 (Cell)</p>
+              </a>
+              <Link
+                to="mailto:kptv24@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="anik_email_address">anikcarandlimo@gmail.com</p>
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="useful-links">
           <h4>Useful Links</h4>
@@ -111,26 +148,18 @@ const Footer = () => {
             </Link>
           </div>
           <div className="telephone">
-            <a href="/">
+            <Link to="/">
               <img src={Telephone} alt="telephone" height="35" width="35" />
-            </a>
+            </Link>
             <a>
               <p className="telephone-number">1(561) 779 4154 (Cell)</p>
             </a>
           </div>
           <div className="email">
-            <Link
-              to="https://mail.google.com/mail/u/2/#inbox"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <Link to="mailto:kptv24@gmail.com" target="_blank" rel="noreferrer">
               <img src={Email} alt="email" height="40" width="40" />
             </Link>
-            <Link
-              to="https://mail.google.com/mail/u/2/#inbox"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <Link to="mailto:kptv24@gmail.com" target="_blank" rel="noreferrer">
               <p className="email-address">kptv24@gmail.com</p>
             </Link>
           </div>
@@ -185,7 +214,7 @@ const Footer = () => {
               <p>NEPA Wholesale</p>
             </Link>
           </div>
-          <div className="sponsors-items">
+          {/* <div className="sponsors-items">
             <Link to="#" target="_blank" rel="noreferrer">
               <img
                 src={ManhaMunibaWholesale}
@@ -197,7 +226,7 @@ const Footer = () => {
             <Link to="#" target="_blank" rel="noreferrer">
               <p className="mm-wholesale">Manha Muniba Wholesale</p>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
       <hr />
