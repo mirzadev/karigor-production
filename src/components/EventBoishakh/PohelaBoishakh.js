@@ -162,23 +162,23 @@ function PohelaBoishakh() {
               <div className="jatra-text">
                 <p>
                   The Jatra pala - Loboner Moto Bhalobasha, was one of the most
-                  popular folk theatre staged by Karigor Production. In USA,
-                  Karigor is one of the organization who organizes suct folk
+                  popular folk theatres staged by Karigor Production. In USA,
+                  Karigor is one of the organizations who organizes such folk
                   theater every year. As the story goes, a king sent his
-                  youngest daughter to assilam inside a deep jungle once she
+                  youngest daughter to asylum inside a deep jungle once she
                   answered her father that she loves her father like salt. The
                   same daughter was picked up by another king of neighboring
-                  state and bought her up. After marrage with another prince,
+                  state and bought her up. After marriage with another prince,
                   this princes invited her father where she cooked all foods
-                  without any salt. After having that food, the King realized,
+                  without any salt. After having that food, the King realized
                   how important salt is for a human. Then the king realized his
                   injustice with his youngest daughter. popular and successful
-                  jatrapala
+                  jatrapala.
                 </p>
                 <p>
-                  Main characters in the theatre were Mofazzol Hoque Rony,
-                  nandini Bhowmik, Abdullah Ripon, Iffat Ahnaf Lucky, Arnob
-                  Khan, Debjani Sen, Sevjyoti Sen and many others. The theatre
+                  Main characters in the theatre were Mofazzal Hoque Rony,
+                  Nandini Bhowmik, Abdullah Ripon, Iffat Ahnaf Lucky, Arnob
+                  Khan, Debjani Sen, Devjyoti Sen and many others. The theatre
                   was produced by Karigor Production.
                 </p>
               </div>
@@ -198,8 +198,8 @@ function PohelaBoishakh() {
           <div>
             <p className="cultural-event-description">
               Karigor cultural events in Pohela Boishakh always has a touch of
-              Bangladesh. The program had tremendous performance like songs,
-              dances by out young talent. The talented singer Rozina Khan, Sohag
+              Bangladesh. The program had tremendous performances like songs and
+              dances by our young talent. The talented singer Rozina Khan, Sohag
               Uddin had their melodious songs that attracted the audience.
             </p>
             <div className="cultural-event-children">
@@ -264,22 +264,22 @@ function PohelaBoishakh() {
             <div className="jatra-des">
               <div className="jatra-text">
                 <p>
-                  The Jatra pala - Bader Maya Josna is one of the famous theatre
-                  in Bangla culture. As the story goes, a king had a new born
-                  baby girl whom the had to float in the river for her safety.
-                  Some snake charmer family who never had any child, found her
-                  floating body and adopted her as own child and named her as
-                  Josna. After 20 years, once Josna became adult, she fell in
-                  love with a Prince. One day the Prince got bite from a
-                  dangerous snake. Then Josna saved the Prince from snake
-                  poison. In one stage, the queen could recognized Josna to be
-                  the lost Princess whom thethen king floated inside a boat.
-                  Finally, Josna was accepted a Princess of the state.
+                  The Jatra pala - Bader Maya Josna is one of the famous
+                  theatres in Bangla culture. As the story goes, a king had a
+                  newborn baby girl whom they had to float in the river for her
+                  safety. Some snake charming family who never had any children,
+                  found her floating body, and adopted her as their own child
+                  and named her as Josna. After 20 years, once Josna became an
+                  adult, she fell in love with a Prince. One day the prince got
+                  bitten by a dangerous snake. Then Josna saved the Prince from
+                  snake poison. In one stage, the queen recognized Josna to be
+                  the lost Princess whom the then king floated inside a boat.
+                  Finally, Josna was accepted as Princess of the state.
                 </p>
                 <p>
                   Main characters in the theatre were Tipu Alam, Anika Rahman,
-                  Pollab Majumder, Mofazzol Hoque Rony, Nandini Bhowmik, Anik
-                  Dev, Kakoli Chowdury, Pavitra Sen, Sharif Tuhin, Sonia Dey,
+                  Pollab Majumder, Mofazzal Hoque Rony, Nandini Bhowmik, Anik
+                  Dev, Kakoli Chowdhury, Pavitra Sen, Sharif Tuhin, Sonia Dey,
                   Khurshid Shumi, Nurul Amin Dollar, Ramesh Kundo, Munira Memi
                   (Guest actress) and many others. The theatre was produced by
                   Karigor Production.
@@ -304,12 +304,12 @@ function PohelaBoishakh() {
               <h2>Cultural Events</h2>
             </div>
             <p className="cultural-event-description">
-              This year cultural program was full of variety. Our children had a
-              great participation to the show. They had dances, songs and
+              This year’s cultural program was full of variety. Our children had
+              a great participation in the show. They had dances, songs, and
               participation in theatre. Main attraction was Karigor Gayen group,
-              performance by renowned singer Sohag Uddin, Mofazzon Hoque Rony,
-              Rozina Khan and Showkat Ali Imon. The whole show kept the audience
-              to the show with full interest.
+              performance by renowned singer Sohag Uddin, Mofazzal Hoque Rony,
+              Rozina Khan and Showquat Ali Imon. The whole show kept the
+              audience to the show with full interest.
             </p>
             <div className="cultural-event-children">
               <img alt="child-image" src={adultPerformance14} />
@@ -348,26 +348,27 @@ function PohelaBoishakh() {
           <div className="jatra-des">
             <div className="jatra-text">
               <p>
-                Rupban is one of the famous theatre in Bangla culture. Here, A
+                Rupban is one of the famous theatres in Bangla culture. Here, A
                 king was without any child. One day with the blessing of a
                 religious mendicant the queen got conceived with a boy. But the
-                same religious mendicant also cursed the king that the new born
-                prince named Rahim will have to be sent to assilam in a deep
-                jungle on 12th day after birth with a 12 years old girl after
-                marrage. If the king fails to do so, the new born prince will
+                same religious mendicant also cursed the king that the newborn
+                prince named Rahim will have to be sent to asylum in a deep
+                jungle on 12th day after birth with a 12-year-old girl after
+                marriage. If the king fails to do so, the newborn prince will
                 not survive. As such, to save the life of Rahim, the king
-                arranged marrage with exact 12 years old girl Rupban and sent
-                them into a jungle. After few years, once prince Rahim become
+                arranged marriage with exactly 12 years old girl Rupban and sent
+                them into a jungle. After a few years, once Prince Rahim become
                 adult, he fell in love with princess Tajel where none knew about
-                their actual identity. At one time due to this affairs, Rahim
-                was arrested by another king where to save Rahim's life, Rupban
+                their actual identity. At one time due to this affair, Rahim was
+                arrested by another king where to save Rahim's life, Rupban
                 disclosed everyone about Rahim's actual identity. The theatre is
                 full of romance and suspense.
               </p>
               <p>
-                Main characters are Mofazzol Hoque Rony, nandini Bhowmik, Sonia,
-                Shovon Anwar, Pollob, Mithel, Rajib, Ramesh, Oporajita and many
-                others. The theatre was directed by Atikur Rahman.
+                Main characters are Mofazzal Hoque Rony, Nandini Bhowmik, Sonia
+                Dey, Shovon Anwar, Pollob Majumder, Mithel, Rashjid Khan Rajib,
+                Ramesh Kundo, Aparajita Mukti and many others. The theatre was
+                directed by Atiquer Rahman.
               </p>
             </div>
             <div>
@@ -386,9 +387,10 @@ function PohelaBoishakh() {
           </div>
           <p className="cultural-event-description">
             Karigor cultural events in Pohela Boishakh always has a touch of
-            Bangladesh. The program had tremendous performance like songs,
-            dances by out young talent. The talented singer Rozina Khan, Sohag
-            Uddin had their melodious songs that attracted the audience.
+            Bangladesh. The program had tremendous performances like songs and
+            dances by our young talents. The main attraction was Rtv USA Banglar
+            Gayen -2022 participation. The renowned Bangladeshi signer SI
+            Tutul’s live performance added an extra attraction to the audience.
           </p>
           <div className="cultural-event-children">
             <img alt="child-image" src={child_Performance_1} />
@@ -431,9 +433,9 @@ function PohelaBoishakh() {
           <p className="rotnogorbha-description">
             Karigor production organized "Karigor Rotnogorbha-1430" for the
             first time in USA. The aim of this award show is to encourage our
-            future generations to establish a strong career in the society. To
+            future generations to establish a strong career in society. To
             achieve that, Karigor targeted the Bangladeshi mothers in USA, who
-            contributed in bringing up all their children in a respectable
+            contributed to bringing up all their children in a respectable
             profession. This year total 7 mothers were awarded with the honor -
             KARIGOR ROTNO GORBHA.
           </p>
@@ -495,15 +497,15 @@ function PohelaBoishakh() {
               and Nati (grandson), respectively.
             </p>
             <p>
-              Gombhira is one of the famous culture in the greater Rajshahi area
-              in Bangladesh. As per this Gombhira, Nana and Nati has come to
-              visit Florida. After coming to Florida, the Nati fell in love with
-              the Bangladesh beautiful girls here. He wants Nana to find one
-              Bangladesh beautiful girl for marrage so that he can settle down
-              here. Nana advised him to look for a girl who owns the culture of
-              Bangladesh. At one point Nati finds the girl and requests Nana to
-              talk to the family. The whole Gombhira was full of fun and that
-              everyone liked.
+              Gombhira is one of the famous cultures in the greater Rajshahi
+              area in Bangladesh. As per this Gombhira, Nana and Nati have come
+              to visit Florida. After coming to Florida, the Nati fell in love
+              with the Bangladesh beautiful girls here. He wants Nana to find
+              one Bangladesh beautiful girl for marriage so that he can settle
+              down here. Nana advised him to look for a girl who owns the
+              culture of Bangladesh. At one-point Nati finds the girl and
+              requests Nana to talk to the family. The whole Gombhira was full
+              of fun and that everyone liked.
             </p>
           </div>
           <div>

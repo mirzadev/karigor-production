@@ -46,17 +46,17 @@ function CulturalActivities() {
               talents who plans, creates and performs all kinds of cultural
               activities for themselves and for other organizations in Florida
               or other states. Karigor is one of the key performing organization
-              in all major events in South Florida like FOBANA, Asian Food Food
-              and Cultural Show. Karigor has the honor to create short films,
-              drama, music videos etc using their own talents.
+              in all major events in South Florida like FOBANA, Asian Food and
+              Cultural Show. Karigor has the honor to create short films, drama,
+              music videos etc using their own talents.
             </p>
             <p className="cultural-des-2">
-              Karigor is an entity that is full of innovations in cultural
+              Karigor is an entity that is full of innovations in the cultural
               arena. This is the unique organization where everyone works
               shoulder to shoulder to make any cultural event successful.
               Whatever cultural projects they are assigned with, they always
-              starts from the scratch and make the finest delivery to the
-              community. Karigor is the symbol of cuttural trust to Bangladeshi
+              start from the scratch and make the finest delivery to the
+              community. Karigor is the symbol of cultural trust to Bangladeshi
               community.
             </p>
           </div>
