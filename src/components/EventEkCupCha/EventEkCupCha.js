@@ -54,21 +54,20 @@ function EventEkCupCha() {
           <div className="ekCupCha-text">
             <p>
               Ek Cup Cha which means "A Cup of Tea" is presently one of the most
-              prestegious reality show in South Florida. In this show the
-              professionals from different background are invited to take part
+              prestigious reality shows in South Florida. In this show the
+              professionals from different backgrounds are invited to take part
               in the form of interview irrespective of their social status. The
-              main purpose of the show is to highlight the talented
-              Bangladeshies in the community who are successful in their own
-              profession. The show also targeted to share the success stories of
-              these heroes in order to inspire other community members. So far
-              individuals from different professions like, doctors, engineers,
-              professiors, journalists, IT professionals, realators,
-              accountants, lawyers, social workers, enterprenours and insurance
-              agents were invited to contribute for the community in the show.
-              The show participants were not limited to only professionals but
-              also young stars from Bangladeshi community who did outstanding
-              results in their educational career were also invited to
-              participate in the show.
+              main purpose of the show is to highlight the talented Bangladeshis
+              in the community who are successful in their own profession. The
+              show also targeted to share the success stories of these heroes to
+              inspire other community members. So far individuals from different
+              professions like doctors, engineers, professors, journalists, IT
+              professionals, realtors, accountants, lawyers, social workers,
+              entrepreneurs, and insurance agents were invited to contribute for
+              the community in the show. The show participants were not limited
+              to only professionals but also young stars from Bangladeshi
+              community who did outstanding results in their educational career
+              were also invited to participate in the show.
             </p>
           </div>
           <div className="ekCupCha-intro-image">
@@ -83,8 +82,8 @@ function EventEkCupCha() {
         <p className="ekCupCha-host-info">
           The show is hosted by Major Mirza Abdul Awal, psc (Retired) and
           directed by Mohammed J Alam Tipu. Main sponsor and inspirations are :
-          Tahmida Jaman Anis, Rozina Khan, Mofazzol Hoque Rony, Anik Dev,
-          Devjyoti Sen, Raju Ahmed, Abdullah Ripon, Nandini Bhowmik, Iffat
+          Tahmida Jaman Anis, Rozina Khan, Mofazzal Hoque Rony, Anik Dev,
+          Devjyoti Sen, Raju Islam, Abdullah Ripon, Nandini Bhowmik, Iffat
           Ahnaff, Kakoli Chowdhury, Rashed Kalam, Ramesh Kundo, and Nadira
           Akter.
         </p>

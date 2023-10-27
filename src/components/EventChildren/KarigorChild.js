@@ -40,21 +40,21 @@ function KarigorChild() {
         <div className="children-des">
           <div className="children-text">
             <p className="children-text-1">
-              Our childrens are the pride for we Bangladeshi. Many of them are
+              Our children are the pride for we Bangladeshi. Many of them are
               born and brought up in Unites States. But none of them forgets
-              their roots. These childrens are unique. The equally maintains two
-              different cunture. Beside practicing the American culture, they
-              equally upholds the origin, culture, religion and traditions of
-              Bangladesh where their root belongs to. Most of the childrens are
-              the best in their own class and after completing the education,
-              the always glitters their light in their profession.
+              their roots. These children are unique. They equally maintain two
+              different cultures. Beside practicing the American culture, they
+              equally uphold the origin, culture, religion, and traditions of
+              Bangladesh where their root belongs to. Most of the children are
+              the best in their own class and after completing their education,
+              they always glitters their light in their profession.
             </p>
             <p className="children-text-2">
-              Karigor is one of the lucky organization where all the parents in
-              South Florida have their trust and confidence. Here childrens
-              comes, learns and practices Bangladeshi culture from the very
-              childhood of their life. Before any program, parents brings their
-              childrens and get them involved in program. During these practice,
+              Karigor is one of the lucky organizations where all the parents in
+              South Florida have their trust and confidence. Here children come,
+              learns and practices Bangladeshi culture from the very childhood
+              of their life. Before any program, parents bring their children
+              and get them involved in the program. During this practice,
               Karigor always identifies the talents and guides them towards
               success. Karigor made lot of good singers, dancers who are
               currently adult and successful in their personal and professional
@@ -73,7 +73,7 @@ function KarigorChild() {
         </div>
 
         <div className="children-cart-heading">
-          <h3>Children in Karigor</h3>
+          <h3>Childrens in Karigor</h3>
         </div>
         <div className="children-des-heading-gallery">
           <h4>Activity Gallery</h4>

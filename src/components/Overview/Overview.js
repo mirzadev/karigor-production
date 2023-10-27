@@ -23,7 +23,7 @@ const Overview = () => {
       </p>
       <OverviewData
         heading="Karigor Production"
-        text="Karigor Production and Cultural Society is a cultural organization and a production house located in West Palm Beach, Florida, USA. Since inception, the organization is dedicated to uphold the cultural heritage of Bangladesh in US soil. Members of Karigor comes from different social, educational, religion and age background. One of the main aim of this organization is to keep our future generation updated about the cultural diversity of Bangladesh. Every year with the generous assistance of Bangladeshi community, Bengali new year festival 'Pohela Boishakh' is arranged. In this program peoples from all lavel and age takes part sportingly. Besides, in Asian Food Fare, FOBANA or in any other cultural activities Karigor's participation is the main attraction to the audience. This Organization is full of local talents where everyone extends their services voluntarily. The organization is capable of organizing any kinds of stage show, programs, cultural activities using their own resources. With the passage of time, now Karigor is a symbol of trust and Bangladeshi flag bearer to all Bangladeshies in Florida and as well as USA."
+        text="Karigor Production and Cultural Society is a cultural organization and a production house located in West Palm Beach, Florida, USA. Since inception, the organization is dedicated to upholding the cultural heritage of Bangladesh in US soil. Members of Karigor come from different social, educational, religion and age backgrounds. One of the main aims of this organization is to keep our future generation updated about the cultural diversity of Bangladesh. Every year with the generous assistance of Bangladeshi community, Bengali new year festival 'Pohela Boishakh' is arranged. In this program people from all levels and ages take part sportingly. Besides, in Asian Food Fare, FOBANA or in any other cultural activities Karigor's participation is the main attraction to the audience. This Organization is full of local talents where everyone extends their services voluntarily. The organization is capable of organizing all kinds of stage shows, programs, and cultural activities using their own resources. With the passage of time, now Karigor is a symbol of trust and Bangladeshi flag bearer to all Bangladeshis in Florida and as well as USA."
         img1={homeOverview_1}
         img2={homeOverview_2}
       />
@@ -40,36 +40,37 @@ const Overview = () => {
         <div className="history-text">
           <h2>Karigor History</h2>
           <p>
-            Karigor Production started it's journey with culturally reach 5
-            young and energetic members of Bangladeshi community name - Tipu,
-            Rony, Anik, Rocky and Shaikh. After glorious victory of Bangladesh
-            Cricket team in 2014, Karigor produced their first promo -
-            Bangladesh World Cup Flash Mob and then a short film - Unlimited
-            Shoe where both were highly appreciated by the community people.
-            This greatly inspired the Karigor members to work more and produce
-            some dramas like Onir Golpo, advertisement for all Bangladeshi
-            organizations, Anando Mela, and few successful cultural programs.
+            Karigor Production started its journey with culturally reach 5 young
+            and energetic members of Bangladeshi community name - Tipu, Rony,
+            Anik, Rocky and Shaikh. After glorious victory of Bangladesh Cricket
+            team in 2014, Karigor produced their first promo - Bangladesh World
+            Cup Flash Mob and then a short film - Unlimited Shoe where both were
+            highly appreciated by the community people. This greatly inspired
+            the Karigor members to work more and produce some dramas like Onir
+            Golpo, advertisement for all Bangladeshi organizations, Anando Mela,
+            and few successful cultural programs.
           </p>
           <p>
-            From year 2015 Karigor started organizing Pohela Boishakh in small
-            scale in the living room of one of the member. This was another
-            success and with popular demand of Bangladeshi community, Karigor
-            started organizing Pohela Boishakh in Royal Palm Beach - Renesa
-            Park. Brian Park and currently at German Club in Lake Worth. Karigor
-            organizes this Pohela Boishakh every year with same concept as Romna
-            Park Dhaka, Bangladesh. The program includes live performance by the
-            members - Mongol Sobha Jatra, Jatra Pala, Folk Songs, Gombhira,
-            dance, recitation etc, where our childrens gets priority.
+            From the year 2015 Karigor started organizing Pohela Boishakh in
+            small scale in the living room of one of the members. This was
+            another success and with popular demand of Bangladeshi community,
+            Karigor started organizing Pohela Boishakh in Royal Palm Beach -
+            Renesa Park. Brian Park and currently at German Club in Lake Worth.
+            Karigor organizes this Pohela Boishakh every year with same concept
+            as Ramna Park Dhaka, Bangladesh. The program includes live
+            performances by the members - Mongol Sobha Jatra, Jatra Pala, Folk
+            Songs, Gombhira, dance, recitation etc, where our children get
+            priority.
           </p>
           <p>
-            Childrens are our future. Accordingly Karigor always practices rich
-            Bangladeshi culture and injected the same among the childrens of
-            Bangladeshi community. Most of the cultural programs has maximum
+            Childrens are our future. Accordingly, Karigor always practices rich
+            Bangladeshi culture and injected the same among the Childrens of
+            Bangladeshi community. Most of the cultural programs have maximum
             number of children participation. Till now Karigor has successfully
             trained more than 100s of children on Bangladeshi culture. Karigor
-            organizes KP News, lot of reality shows like Evening with Bristi and
-            Ek Cup Cha, and cultural festivals which all are very popular to the
-            community.
+            organizes KP News, a lot of reality shows like Evening with Bristi
+            and Ek Cup Cha, and cultural festivals which all are very popular to
+            the community.
           </p>
         </div>
       </div>
@@ -80,13 +81,13 @@ const Overview = () => {
           <p>
             Karigor mission is selected considering the cultural heritage of
             Bangladesh and the children who are born and lives in USA. These
-            childrens normally has to adopt two culture i.e. American and also
-            Bangladesh. Therefore, Karigor Production selected their mission as
-            under:
+            Childrens normally has to adopt two cultures i.e., American, and
+            also Bangladesh. Therefore, Karigor Production selected their
+            mission as under:
           </p>
           <p className="mission-statement">
             To retain and practice Bangladeshi rich culture in USA and inject
-            the same in next generation.
+            the same in next Bangladeshi origin generations.
           </p>
           <div className="karigor-mission">
             <img alt="img" src={karigorMissionA} />

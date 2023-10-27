@@ -32,7 +32,7 @@ import Member_Karigor_Cultural_13 from "../Assets/aboutPage/AdultMembers/SoniaRa
 import Member_Karigor_Cultural_14 from "../Assets/aboutPage/AdultMembers/AshadulHoque.jpg";
 import Member_Karigor_Cultural_15 from "../Assets/aboutPage/AdultMembers/SakibShourav.jpg";
 import Member_Karigor_Cultural_16 from "../Assets/aboutPage/AdultMembers/SharifMajumder.jpg";
-import Member_Karigor_Cultural_17 from "../Assets/aboutPage/AdultMembers/Sonda.jpg";
+import Member_Karigor_Cultural_17 from "../Assets/aboutPage/AdultMembers/SandhaMurshid.jpg";
 import Member_Karigor_Cultural_18 from "../Assets/aboutPage/AdultMembers/SajidulKhan.jpg";
 import Child_Member_Karigor_1 from "../Assets/aboutPage/ChildMembers/JoyeetaAnis.jpg";
 import Child_Member_Karigor_2 from "../Assets/aboutPage/ChildMembers/AdrivAnis.jpg";
@@ -78,11 +78,11 @@ function AboutUs() {
             specialty. Therefore, Karigor's vision is to implement all these
             gradually irrespective of race, region and religious differences.
             Within ten years of inception, Karigor should have a strong
-            structure and credibility in the society. In the next twenty years
-            they will gradually add different cultural heritage into their
-            practices. Importance will be given on childrens by proper
-            motivation and involvement in all kinds of religious, festival,
-            cultural, language and education activities.
+            structure and credibility in society. In the next twenty years they
+            will gradually add different cultural heritage into their practices.
+            Importance will be given on Childrens by proper motivation and
+            involvement in all kinds of religious, festival, cultural, language
+            and education activities.
           </p>
         </div>
       </div>
@@ -104,8 +104,8 @@ function AboutUs() {
                 Karigor administration.
               </li>
               <li>
-                Maintain very good relationship with all other organizations in
-                Florida and USA.
+                Maintain very good relationships with all other organizations in
+                Florida and the USA.
               </li>
               <li>
                 Organize cultural shows on all nationally recognized events
@@ -506,12 +506,12 @@ function AboutUs() {
           <div className="kp-members-area-image">
             <img src={Child_Member_Karigor_17} alt="member1" />
           </div>
-          <h3>Shourin</h3>
+          <h3>Shourin Dey</h3>
           <p>Member</p>
         </div>
       </div>
       <div className="kp-members-heading-gallery">
-        <h4>Respected Advisers</h4>
+        <h4>Respected Advisory Board Members</h4>
       </div>
       <div className="kp-members-cart">
         <div className="kp-members-area">
@@ -526,28 +526,28 @@ function AboutUs() {
             <img src={Adviser_Karigor_2} alt="member1" />
           </div>
           <h3>Mr. Junaid Akter</h3>
-          <p>Adviser</p>
+          <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Adviser_Karigor_3} alt="member1" />
           </div>
           <h3>Tamanna Ahmed</h3>
-          <p>Adviser</p>
+          <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Adviser_Karigor_4} alt="member1" />
           </div>
           <h3>Dr Ehsanul Karim, MD</h3>
-          <p>Adviser</p>
+          <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Adviser_Karigor_5} alt="member1" />
           </div>
           <h3>Mulsary Khanum</h3>
-          <p>Adviser</p>
+          <p>Advisor</p>
         </div>
       </div>
       <div className="kp-members-cart">
@@ -555,22 +555,22 @@ function AboutUs() {
           <div className="kp-members-area-image">
             <img src={Adviser_Karigor_6} alt="member1" />
           </div>
-          <h3>Dr Sultan Salahusddin Ahmed, MD</h3>
-          <p>Adviser</p>
+          <h3>Dr Sultan Salahuddin Ahmed, MD</h3>
+          <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Adviser_Karigor_7} alt="member1" />
           </div>
           <h3>Dr. Abdur Rob Khan Prince, MD</h3>
-          <p>Adviser</p>
+          <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={Adviser_Karigor_8} alt="member1" />
           </div>
-          <h3>Keya Rozario</h3>
-          <p>Adviser</p>
+          <h3>Catherina Keya Rozario</h3>
+          <p>Advisor</p>
         </div>
       </div>
     </div>

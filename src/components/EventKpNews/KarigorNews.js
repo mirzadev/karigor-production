@@ -10,7 +10,7 @@ function KarigorNews() {
     <div>
       <h1 className="kpNews-heading">Karigor News</h1>
       <p className="kpNews-heading-expl">
-        Always Update With Bangladeshi Community
+        Always Updated With Bangladeshi Community
       </p>
       <div className="kpNews-container">
         <div className="kpNews-des-heading">
@@ -29,24 +29,24 @@ function KarigorNews() {
               </div>
               <div className="kpNews-text">
                 <p>
-                  Karigor News is one of the great addition to Karigor community
-                  work. Karigor heroes are always very active to collect all
-                  kinds of information that affects Bangladesh community,
-                  whether it is in Florida or outside Florida. Our dedicated
-                  team members always gets updated information from our reliable
-                  sources and presents before the community. Upon receiving any
-                  information our Karigor always verifies through another source
-                  and then only telecasts to the public.
+                  Karigor News is one of the great additions to Karigor
+                  community work. Karigor heroes are always very active to
+                  collect all kinds of information that affects Bangladesh
+                  community, whether it is in Florida or outside Florida. Our
+                  dedicated team members always get updated information from our
+                  reliable sources and presents before the community. Upon
+                  receiving any information our Karigor always verifies through
+                  another source and then only telecasts to the public.
                 </p>
                 <p>
                   The process of telecasting is completely done by the Karigor
                   members. Instead of outsourcing the hands from third party,
                   Karigor manages the whole process by themselves. Karigor has
                   own dedicated studio where all these works are done and these
-                  are all volunteer service, The qualified individuals works
-                  volunterily and complete any news project. Therefore, our news
+                  are all volunteer services. The qualified individuals work
+                  voluntarily and complete any news project. Therefore, our news
                   events are not live and these takes place once there are some
-                  incidents or informations.
+                  incidents or information.
                 </p>
               </div>
             </div>
