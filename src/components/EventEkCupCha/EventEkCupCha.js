@@ -43,7 +43,7 @@ function EventEkCupCha() {
     <div>
       <h1 className="ekCupCha-heading">এক কাপ চা - Ek Cup Cha</h1>
       <p className="ekCupCha-heading-expl">
-        Most Prestegious Show in South Florida
+        Most Prestigious Show in South Florida
       </p>
 
       <div className="ekCupCha-container">
