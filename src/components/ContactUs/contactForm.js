@@ -7,7 +7,7 @@ import YouTube from "../Assets/footerItem/YouTube.png";
 
 function ContactForm() {
   const form = useRef();
-  // To close the message after 20 second
+  // To close the message after 10 second
   const messageFadeout = () => {
     setTimeout(() => {
       document.getElementById("divResults").innerHTML = "";
