@@ -3,6 +3,7 @@ import Overview from "../components/Overview/Overview";
 import HomeEvent from "../components/HomeEvents/HomeEvent";
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/HeroSection/Hero";
+import Home_Cover from "../components/Assets/homePage/HomePageCoverPic.jpg";
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
       <Navbar />
       <Hero
         cName="hero"
-        heroImg="https://media.istockphoto.com/id/1375792443/photo/drone-view-of-coxs-bazaar-sea-beach-chattogram-bangladesh.webp?b=1&s=170667a&w=0&k=20&c=vjLROOT71dq8VpX12jDebFaiPffZwFskj6eSammFOsg="
+        heroImg={Home_Cover}
         text="Small Bangladesh in Florida - USA"
         title="KARIGOR PRODUCTION AND CULTURAL SOCIETY"
         buttonText="Explore Karigor"
