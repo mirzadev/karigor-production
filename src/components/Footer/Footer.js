@@ -10,7 +10,6 @@ import Email from "../Assets/footerItem/Email_Logo.png";
 import DemandDistr from "../Assets/footerItem/DD-Logo1.png";
 import MiamiKDistr from "../Assets/footerItem/miami-k-distributions.png";
 import NepaWholesale from "../Assets/footerItem/nepa-wholesale.png";
-// import ManhaMunibaWholesale from "../Assets/footerItem/Manha_Muniba_Wholesale_Logo.png";
 import pspTechLogo from "../Assets/footerItem/pspTech-logo.png";
 import { Link } from "react-router-dom";
 

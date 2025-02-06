@@ -373,7 +373,7 @@ function PohelaBoishakh() {
             </div>
             <div>
               <a
-                href="https://www.youtube.com/watch?v=2B3F0moME0g&t=261s"
+                href="https://www.youtube.com/watch?v=RChxR0sWUmg&t=264s"
                 target="_blank"
               >
                 <img id="jatra-image-2" alt="jatra-vdo" src={jatrapalaRupban} />

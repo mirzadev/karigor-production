@@ -1,5 +1,5 @@
 import "./EventEkCupChaStyles.css";
-import "./EventEkCupChaStyles.css";
+// import "./EventEkCupChaStyles.css";
 import ekCupChaIntro from "../Assets/ekCupCha/ekCupCha-1.jpg";
 import ekCupChaEpi1A from "../Assets/ekCupCha/ekCupCha-1A.jpg";
 import ekCupChaEpi1B from "../Assets/ekCupCha/ekCupCha-1B.jpg";
@@ -37,6 +37,8 @@ import ekCupChaEpi27 from "../Assets/ekCupCha/ekCupCha-27.jpg";
 import ekCupChaEpi28 from "../Assets/ekCupCha/ekCupCha-28.jpg";
 import ekCupChaEpi29 from "../Assets/ekCupCha/ekCupCha-29.jpg";
 import ekCupChaEpi30 from "../Assets/ekCupCha/ekCupCha-30.jpg";
+import ekCupChaEpi31 from "../Assets/ekCupCha/ekCupCha-31.jpg";
+import ekCupChaEpi32 from "../Assets/ekCupCha/ekCupCha-32.jpg";
 
 function EventEkCupCha() {
   return (
@@ -621,6 +623,68 @@ function EventEkCupCha() {
               <h3>Dr. B M Atiquzzaman, MD</h3>
               <p>Gastroenterologist</p>
               <p>Episode - 30</p>
+            </a>
+          </div>
+        </div>
+        <div className="ekCupCha-cart">
+          <div className="ekCupCha-episode">
+            <a
+              className="episode-link"
+              href="https://youtu.be/zXEgg-7dEG0?si=3tbYm3Tewf4nApKE"
+              target="_blank"
+            >
+              <div className="ekCupCha-episode-image">
+                <img src={ekCupChaEpi31} alt="epic23" />
+              </div>
+
+              <h3>Kabir Chowdhury & Dr. Shekhar Sharma, MD</h3>
+              <p>Accountant and Doctor</p>
+              <p>Episode - 31</p>
+            </a>
+          </div>
+          <div className="ekCupCha-episode">
+            <a
+              className="episode-link"
+              href="https://youtu.be/zXEgg-7dEG0?si=3tbYm3Tewf4nApKE"
+              target="_blank"
+            >
+              <div className="ekCupCha-episode-image">
+                <img src={ekCupChaEpi32} alt="epic23" />
+              </div>
+
+              <h3>Captain Abu Taher Muhammad Nurul Amin(Retired)</h3>
+              <p>Freedom Fighter</p>
+              <p>Episode - 32</p>
+            </a>
+          </div>
+          <div className="ekCupCha-episode">
+            <a
+              className="episode-link"
+              href="https://youtu.be/zXEgg-7dEG0?si=3tbYm3Tewf4nApKE"
+              target="_blank"
+            >
+              <div className="ekCupCha-episode-image">
+                <img src={ekCupChaEpi32} alt="epic23" />
+              </div>
+
+              <h3>Dr Abdur Rahman Baig, MD</h3>
+              <p>Nephrologist</p>
+              <p>Episode - 33</p>
+            </a>
+          </div>
+          <div className="ekCupCha-episode">
+            <a
+              className="episode-link"
+              href="https://youtu.be/zXEgg-7dEG0?si=3tbYm3Tewf4nApKE"
+              target="_blank"
+            >
+              <div className="ekCupCha-episode-image">
+                <img src={ekCupChaEpi32} alt="epic23" />
+              </div>
+
+              <h3>Dr Seema</h3>
+              <p>Psychiatric - Mental Health</p>
+              <p>Episode - 34</p>
             </a>
           </div>
         </div>
