@@ -1,5 +1,5 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On RewriteBase / RewriteRule ^index\.html$ - [L] RewriteCond
-  %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteCond
-  %{REQUEST_FILENAME} !-l RewriteRule . /index.html [L]
-</IfModule>
+# Disable content-negotiation that can cause 404s on pretty URLs Options
+-MultiViews RewriteEngine On RewriteBase / # Let real files and folders pass
+through RewriteCond %{REQUEST_FILENAME} -f [OR] RewriteCond %{REQUEST_FILENAME}
+-d RewriteRule ^ - [L] # Send everything else to index.html RewriteRule ^
+index.html [L]
