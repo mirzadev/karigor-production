@@ -1,6 +1,6 @@
 import "./EventsUpcomingStyles.css";
 import upcomingEvent from "../Assets/upcomingEvent/UpcomingEvent.jpg";
-// import upcomingEvent_1 from "../Assets/upcomingEvent/UpcomingEvent_1.jpg";
+import upcomingEvent_1 from "../Assets/upcomingEvent/UpcomingEvent_1.jpg";
 
 function EventUpcoming() {
   return (
@@ -15,7 +15,7 @@ function EventUpcoming() {
       </div>
       <div className="upcoming-event">
         <img alt="img" src={upcomingEvent} />
-        {/* <img alt="img" src={upcomingEvent_1} /> */}
+        <img alt="img" src={upcomingEvent_1} />
       </div>
     </div>
   );
