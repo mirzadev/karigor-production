@@ -21,8 +21,13 @@
   font-style: italic;
 }
 
+.upcoming-event {
+  display: flex;
+  gap: 20px; /* space between images */
+}
+
 .upcoming-event img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
@@ -41,5 +46,14 @@
   }
   .upcoming-container p {
     font-size: 1rem;
+  }
+  .upcoming-event {
+    flex-direction: column;
+    gap: 0; /* space between images */
+  }
+
+  .upcoming-event img {
+    width: 100%;
+    height: auto;
   }
 }

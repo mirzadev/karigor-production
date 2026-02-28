@@ -181,22 +181,7 @@ const Footer = () => {
               <p>Demand Distributions</p>
             </Link>
           </div>
-          <div className="sponsors-items">
-            <Link
-              to="https://miamikdistribution.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={MiamiKDistr} alt="miamiK" height="35" width="130" />
-            </Link>
-            <Link
-              to="https://miamikdistribution.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p>Miami K Distributions</p>
-            </Link>
-          </div>
+
           <div className="sponsors-items">
             <Link
               to="https://nepa2wholesale.com/"
@@ -213,19 +198,6 @@ const Footer = () => {
               <p>NEPA Wholesale</p>
             </Link>
           </div>
-          {/* <div className="sponsors-items">
-            <Link to="#" target="_blank" rel="noreferrer">
-              <img
-                src={ManhaMunibaWholesale}
-                alt="email"
-                height="45"
-                width="50"
-              />
-            </Link>
-            <Link to="#" target="_blank" rel="noreferrer">
-              <p className="mm-wholesale">Manha Muniba Wholesale</p>
-            </Link>
-          </div> */}
         </div>
       </div>
       <hr />
